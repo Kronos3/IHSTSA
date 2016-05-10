@@ -18,7 +18,7 @@ body
 body,input,textarea,select
 {
   font-family: 'Palatino Linotype';
-  font-size: 11pt;
+  font-size: 14pt;
   font-weight: 300;
   line-height: 1.75em;
   color: #777;
@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6,p
   color: #333;
 }
 
-h2
+h1
 {
   letter-spacing: -0.025em;
   font-size: 50px;
@@ -155,6 +155,18 @@ ul.style .first
 {
   height: 100%;
 }
+
+#header
+{
+  background: url(../images/header.jpg) no-repeat center fixed;
+  transform-origin: top left;
+  -webkit-background-size: cover;
+  -webkit-height: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #header:before
 {
   content: "";
@@ -163,15 +175,7 @@ ul.style .first
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/header.jpg) no-repeat center fixed;
   z-index: -1;
-  transform-origin: top left;
-  -webkit-filter: blur(3px) grayscale(70%);
-  -webkit-background-size: cover;
-  -webkit-height: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 /* Nav: Navigation bar at top of page */
@@ -361,7 +365,7 @@ ul.style .first
   margin-bottom: 10%;
   position: relative;
   height: 60%;
-  z-index: -1;
+  z-index: 4;
 }
 
 .full #logo
@@ -371,7 +375,7 @@ ul.style .first
 
 .full
 {
-  height: 100%;
+  height: 100% !important;
 }
 
 #logo h1
@@ -662,27 +666,30 @@ hr
   margin-right: 5px;
 }
 
-.img-hvr-gnome, .img-hvr-kde
+img
 {
-  width: 500px;
-  height: 281px;
+  width: 300px;
+  height: 300px;
   -webkit-transition: opacity 0.25s ease-in-out;
   opacity: 1;
+  border-radius: 4px;
 }
 
-.img-hvr-gnome
-{
-  background: url(images/gnome.jpg);
-}
-
-.img-hvr-kde
-{
-  background: url(images/kde.jpg);
-}
-
-.img-hvr-gnome:hover, .img-hvr-kde:hover
+img:hover
 {
   opacity: 0.65;
+}
+
+.right
+{
+  margin-left: 5%;
+  float: right;
+}
+
+.left
+{
+  margin-right: 5%;
+  float: left;
 }
 
 .contents
@@ -690,10 +697,9 @@ hr
   position: fixed;
   right: 0;
   bottom: 10%;
-  width: 350px;
+  width: 15%;
   list-style: none;
   padding: 20px;
-  padding-right: 20px;
   padding-left: 20px;
   background: #c7c7c7;
   border-bottom-left-radius: 5px;
@@ -705,11 +711,130 @@ hr
   padding: 0;
   padding-bottom: 10px;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .contents a
 {
   margin: 0 auto;
   text-align: center;
+}
+
+.external
+{
+  position: absolute;
+  z-index: 10;
+  margin: 15px;
+  margin-top: 20px;
+  float: left;
+  border-radius: 5px;
+}
+
+.external .links
+{
+  position: absolute;
+  font-size: 25px;
+  padding: 10px;
+  padding-bottom: 0;
+  margin: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.external ul
+{
+  background-color: #000;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 150%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.external > ul > li,
+.external > ul > li > a 
+{
+  text-align: left;
+  font-size: 20px;
+  color: #FFF;
+}
+
+.external > ul > li > a:hover
+{
+  color: rgb(0, 111, 255);
+}
+
+.external:hover > ul
+{
+  display:block;
+}
+
+.external:hover > i
+{
+  background-color: #000;
+  left: 0;
+}
+
+.main-content
+{
+  float: center;
+  text-align: center;
+}
+
+#motto
+{
+  padding: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #008c8c; /* add color */
+}
+
+#motto *
+{
+  display: block;
+}
+
+#creed
+{
+  padding: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #182e47;
+}
+
+#creed *
+{
+  color: #FFF;
+  display: block;
+}
+
+#community
+{
+  padding: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #93e3ec;
+}
+
+#community *
+{
+  display: block;
+}
+
+#officers
+{
+  padding: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #333;
+}
+
+#officers *
+{
+  color: #FFF;
+  display: block;
 }
