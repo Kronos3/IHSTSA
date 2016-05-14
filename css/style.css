@@ -778,6 +778,12 @@ img:hover
   color: #FFF;
 }
 
+.main-content img.left
+{
+  float: left;
+  margin: 50px;
+}
+
 .main-content
 {
   float: center;
@@ -854,3 +860,5 @@ img:hover
 .ex > ul > li:hover > a
 {
   background-color: #FFF !important;
+}
+
