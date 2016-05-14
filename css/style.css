@@ -778,25 +778,59 @@ img:hover
   color: #FFF;
 }
 
+.main-content img.right
+{
+  float:right;
+  top: -50px;
+  margin: 50px;
+  display: inline-block;
+  margin-right: 200px;
+}
+
 .main-content img.left
 {
-  float: left;
+  float:left;
   margin: 50px;
+}
+
+
+.main-content *
+{
+  overflow:auto; 
 }
 
 .main-content
 {
   float: center;
-  text-align: center;
+  text-align: left;
   z-index: 10;
+}
+
+.main-content img
+{
+  width: 300px;
+  height: auto;
+}
+
+.main-content p
+{
+  padding-left: 60px;
+  font-size: 26px;
+  text-indent: 35px;
+}
+
+.main-content h1
+{
+  padding-bottom: 60px;
 }
 
 #motto
 {
+  height: 500px;
   padding: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #008c8c; /* add color */
+  background: #008c8c;
 }
 
 #motto *
@@ -806,6 +840,7 @@ img:hover
 
 #creed
 {
+  min-height: 500px;
   padding: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -816,6 +851,8 @@ img:hover
 {
   color: #FFF;
   display: block;
+  top: 50%;
+  bottom: 50%
 }
 
 #community
@@ -840,6 +877,22 @@ img:hover
 }
 
 #officers *
+{
+  color: #FFF;
+  display: block;
+}
+
+#submissions
+{
+  overflow:auto; 
+  padding: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #5E94A5;
+  height: 150%;
+}
+
+#submissions *
 {
   color: #FFF;
   display: block;
