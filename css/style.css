@@ -1,4 +1,11 @@
 ﻿@charset 'UTF-8';
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url(http://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJYdJ2JT0J65PSe7wdxAnx_I.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 
 /* Main */
 html
@@ -17,7 +24,7 @@ body
 
 body,input,textarea,select
 {
-  font-family: 'Palatino Linotype';
+  font-family: 'Droid Sans';
   font-size: 14pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -29,6 +36,17 @@ h1,h2,h3,h4,h5,h6,p
 {
   font-weight: 300;
   color: #333;
+  overflow: visible !important;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Droid Sans Mono';
+}
+
+p
+{
+  font-family: 'Droid Serif Mono';
 }
 
 h1
