@@ -12,7 +12,7 @@
 </head>
 <body>
   <!-- Header -->
-  <div id="header" class="full">
+  <div id="header">
     <div id="back"></div>
     <div id="nav-wrapper">
       <!-- Nav -->
@@ -22,7 +22,14 @@
           <li class="menu-parent"><a href="community.html">Community</a></li>
           <li class="menu-parent"><a href="fundraising.html">Fundraising</a></li>
           <li class="menu-parent"><a href="officers.html">Officers</a></li>
-          <li class="menu-parent active"><a href="submissions.html">Submissions</a></li>
+          <li class="sub-menu-parent active">
+            <a href="submissions.html">Submissions</a>
+            <ul class="sub-menu">
+              <li><a href="submissions.html#catapult">Catapult</a></li>
+              <li><a href="submissions.html#flight">Flight</a></li>
+              <li><a href="submissions.html#stories">Children’s Stories</a></li>
+            </ul>
+          </li>
           <li class="sub-menu-parent ex">
             <a href="#">External</a>
             <ul class="sub-menu">
@@ -33,7 +40,7 @@
         </ul>
       </nav>
     </div>
-    <div class="container full">
+    <div class="container">
       <!-- Logo -->
       <div id="logo">
         <h1><a href="#">IHS TSA</a></h1>
@@ -44,17 +51,17 @@
   <div class="main-content">
     <div id="submissions">
       <h1>Submissions We’re Really Proud of:</h1>
-      <h2>The “Unusual” Catapult</h2>
+      <h2 id="catapult">The “Unusual” Catapult</h2>
       <p class="quote">“They changed the rules! We don’t need to have a lever anymore! [Mwahahaha]”</p>
       <img class="right" src="images/cat.JPG">
       <p>This set four of our officers—Tristan, Zak, Jacob, and Freya—on a course to competing at the New York State Technology Student Association Catapult competition with a catapult modeled on those used to launch planes from aircraft carriers. By which the four really meant air cannon. The catapult’s “unusual” design and ability to make loud tooting noises attracted a lot attention at States. A fiasco resulting from the event rules being unclear caused the four to make a new barrel from duck tape, paper, and hot glue and install it only a few seconds before their turn to compete came. The barrel was also incompatible with the gravity-fed loading magazine that allowed for the planned rapid-fire mode.</p>
       <p>Even with all the planned advantages of the “unusual” design taken away, the four were still able to handily win the state competition. Sitting on their laurels, the device was the primary attraction when the IHSTSA officers went to promote technology at a local elementary school. The officers made sure all the children got a turn to fire the catapult—which was difficult, because it was so fun. And to be honest, aging doesn’t make pushing a small red button that makes a loud toot and sends three or four plastic golf balls 20 feet any less amazing.</p>
       <img class="left" src="images/flight.jpg">
-      <h2>Flight</h2>
+      <h2 id="flight">Flight</h2>
       <p>Andrew was always quiet and studious. He also didn’t come to IHSTSA meetings often. So everyone was surprised when he brought a featherweight airplane to the New York State Technology Student Association Flight event, launched it, and it didn’t come down—for about two minutes. Andrew easily won first place, and IHSTSA members spent some time afterwards proposing increasingly strong ways to protect Andrew’s submission on its way to Nationals.</p>
       <br />
       <br />
-      <h2>Children’s Stories:<i>A Needle in a Haystack</i></h2>
+      <h2 id="stories">Children’s Stories:<i>A Needle in a Haystack</i></h2>
       <p>Last year, a team of IHSTSA students made it to the semifinals in Children’s Stories at the national competition, only to fail to make the final step to glory. This year, a team of the same core people is coming back with a vengeance with <i>A Needle in a Haystack,</i> a story about a girl who designs a complicated contraption to find her lost sewing needle. Their beautifully illustrated story is written with a (mostly) AABB rhyme scheme. But honestly, three pictures of the book tell more than three thousand words:
       <div class="row">
         <section class="col-md-4"><img class="left" src="images/1.png"></section>
