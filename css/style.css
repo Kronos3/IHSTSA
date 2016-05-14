@@ -826,7 +826,7 @@ img:hover
 
 #motto
 {
-  height: 500px;
+  min-height: 500px;
   padding: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
