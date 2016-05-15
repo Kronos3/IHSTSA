@@ -554,7 +554,7 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
   padding-top: 50px;
   position: relative;
   background: #f2f2f2;
-  text-align: center;
+  text-align: left;
 }
 
 #featured h3
