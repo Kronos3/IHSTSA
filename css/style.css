@@ -174,9 +174,13 @@ ul.style .first
   height: 100%;
 }
 
+.submisions
+{
+ background: url(../images/submissionsbackground.png);
+}
 #header
 {
-  background: url(../images/header.jpg) no-repeat center fixed;
+  background: no-repeat center fixed;
   transform-origin: top left;
   -webkit-background-size: cover;
   -webkit-height: cover;
