@@ -217,8 +217,8 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
   position: fixed;
   z-index: 5;
   width: 100%;
-  height: 84px;
-  background-color: rgba(255,255,255,0);
+  height: 72px;
+  background-color: #585858;
   -webkit-transition: background-color .3s; /* Safari */
   transition: background-color .3s;
 }
@@ -230,7 +230,6 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
 
 #nav-wrapper
 {
-  padding: 5px;
   position: fixed;
   top: 0;
   left: 0;
@@ -276,15 +275,11 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
 }
 
 .menu-parent a,
 .menu-parent span
 {
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 
 .menu-parent a:before {
@@ -312,7 +307,6 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
 }
 .active > a
 {
-  border-radius: 5px;
   background: rgba(0,0,0,1) !important;
 }
 
@@ -345,7 +339,6 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: -5px;
   width: 100%;
   z-index: 100;
   font-size: 13px;
@@ -354,8 +347,6 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
   background: #000;
   padding-left: 0px;
   display: none;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
@@ -393,7 +384,6 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
 
 .sub-menu > li:hover
 {
-  border-radius: 5px;
   background: #FFF;
 }
 
@@ -982,11 +972,6 @@ img:hover
 .ex > ul > li > a
 {
   background-color: #620000 !important;
-}
-
-.ex > a
-{
-  border-radius: 5px !important;
 }
 
 .ex > ul > li:hover > a
