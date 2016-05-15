@@ -1,4 +1,4 @@
-﻿@charset 'UTF-8';
+@charset 'UTF-8';
 @font-face {
   font-family: 'Droid Sans Mono';
   font-style: normal;
@@ -57,7 +57,7 @@ h1
 {
   letter-spacing: -0.025em;
   font-size: 50px;
-
+}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 {
@@ -760,6 +760,11 @@ img
   border-radius: 4px;
 }
 
+img:hover
+{
+  opacity: 0.65;
+}
+
 .right
 {
   margin-left: 5%;
@@ -851,6 +856,7 @@ img
   top: -50px;
   margin: 50px;
   display: inline-block;
+  margin-right: 200px;
 }
 
 .main-content img.left
@@ -872,13 +878,11 @@ img
   z-index: 10;
 }
 
-/**
 .main-content img
 {
   width: 300px;
   height: auto;
 }
-**/
 
 .main-content p
 {
@@ -977,4 +981,3 @@ img
 {
   background-color: #FFF !important;
 }
-
