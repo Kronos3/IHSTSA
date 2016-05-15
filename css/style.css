@@ -994,3 +994,9 @@ img:hover
 {
 	font-style: italic;
 }
+
+cite
+{
+ padding-left: 40px;
+ text-indent: -40px !important;
+}
