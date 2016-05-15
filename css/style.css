@@ -760,11 +760,6 @@ img
   border-radius: 4px;
 }
 
-img:hover
-{
-  opacity: 0.65;
-}
-
 .right
 {
   margin-left: 5%;
@@ -878,11 +873,13 @@ img:hover
   z-index: 10;
 }
 
+/**
 .main-content img
 {
   width: 300px;
   height: auto;
 }
+**/
 
 .main-content p
 {
