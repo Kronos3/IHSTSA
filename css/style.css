@@ -174,13 +174,10 @@ ul.style .first
   height: 100%;
 }
 
-.submisions
-{
- background: url(../images/submissionsbackground.png);
-}
+
 #header
 {
-  background: no-repeat center fixed;
+  background: url(../images/header.png) no-repeat center fixed;
   transform-origin: top left;
   -webkit-background-size: cover;
   -webkit-height: cover;
@@ -190,6 +187,28 @@ ul.style .first
 }
 
 #header:before
+{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#headersubmissions
+{
+  background: url(../image/submissionsimage.png) no-repeat center fixed;
+  transform-origin: top left;
+  -webkit-background-size: cover;
+  -webkit-height: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headersubmissions:before
 {
   content: "";
   height: 100%;
