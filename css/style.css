@@ -951,12 +951,12 @@ img:hover
   padding: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #C4E9F5;
+  background-color: #333;
 }
 
 #officers *
 {
-  color: black;
+  color: #FFF;
   display: block;
 }
 
