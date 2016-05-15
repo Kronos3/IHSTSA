@@ -856,7 +856,7 @@ img:hover
   top: -50px;
   margin: 50px;
   display: inline-block;
-  margin-right: 200px;
+/** margin-right: 200px; */
 }
 
 .main-content img.left
