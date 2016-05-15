@@ -162,7 +162,7 @@ ul.style .first
 }
 
 /* intro class wraps nav and logo ID */
-#header
+#header, #headersubmissions
 {
   position: relative;
   text-align: center;
@@ -175,48 +175,34 @@ ul.style .first
 }
 
 
+#header, #headersubmissions;
+{
+  transform-origin: top left;
+  -webkit-background-size: cover;
+  -webkit-height: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header:before, #headersubmissions:before;
+{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 #header
 {
-  background: url(../images/header.png) no-repeat center fixed;
-  transform-origin: top left;
-  -webkit-background-size: cover;
-  -webkit-height: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+background: url(../images/header.png) no-repeat center fixed;
 }
-
-#header:before
-{
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
 #headersubmissions
 {
-  background: url(../image/submissionsimage.png) no-repeat center fixed;
-  transform-origin: top left;
-  -webkit-background-size: cover;
-  -webkit-height: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#headersubmissions:before
-{
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  background: url(../images/submissionsimage.png) no-repeat center fixed;
 }
 
 /* Nav: Navigation bar at top of page */
