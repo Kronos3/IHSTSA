@@ -31,12 +31,16 @@ body,input,textarea,select
   color: #777;
 }
 
+h1,h2,h3,h4,h5,h6,p, i
+{
+  overflow: visible !important;
+}
+
 /* Fonts */
 h1,h2,h3,h4,h5,h6,p
 {
   font-weight: 300;
   color: #333;
-  overflow: visible !important;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -167,7 +171,6 @@ ul.style .first
   position: relative;
   text-align: center;
   background-attachment: fixed;
-  width: 100%;
 }
 .full
 {
@@ -781,7 +784,7 @@ img:hover
   bottom: 10%;
   width: 15%;
   list-style: none;
-  padding: 20px;
+  padding: 0px;
   padding-left: 20px;
   background: #c7c7c7;
   border-bottom-left-radius: 5px;
