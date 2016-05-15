@@ -57,7 +57,7 @@ h1
 {
   letter-spacing: -0.025em;
   font-size: 50px;
-}
+
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 {
@@ -750,7 +750,7 @@ hr
   color: #a94442;
   margin-right: 5px;
 }
-
+/**
 img
 {
   width: 300px;
@@ -759,7 +759,7 @@ img
   opacity: 1;
   border-radius: 4px;
 }
-
+**/
 .right
 {
   margin-left: 5%;
@@ -851,7 +851,6 @@ img
   top: -50px;
   margin: 50px;
   display: inline-block;
-  margin-right: 200px;
 }
 
 .main-content img.left
