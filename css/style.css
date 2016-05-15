@@ -693,12 +693,12 @@ code
 {
   padding-bottom: 20px;
 }
-
+/**
 hr
 {
   border-color: #000;
 }
-
+*/
 .note
 {
   width: 100%;
@@ -769,6 +769,12 @@ img:hover
 {
   margin-left: 5%;
   float: right;
+}
+
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .left
@@ -980,4 +986,11 @@ img:hover
 .ex > ul > li:hover > a
 {
   background-color: #FFF !important;
+}
+
+/** Tristan's CSS */
+
+.italics
+{
+	font-style: italic;
 }
