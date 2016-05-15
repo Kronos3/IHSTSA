@@ -225,6 +225,7 @@ background: url(../images/header.png) no-repeat center fixed;
 
 #nav-wrapper
 {
+  background-color: rgb(88,88,88);	
   padding: 5px;
   position: fixed;
   top: 0;
