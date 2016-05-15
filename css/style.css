@@ -162,7 +162,7 @@ ul.style .first
 }
 
 /* intro class wraps nav and logo ID */
-#header, #headersubmissions
+#header, #headersubmissions, #headerfundraising
 {
   position: relative;
   text-align: center;
@@ -175,7 +175,7 @@ ul.style .first
 }
 
 
-#header, #headersubmissions;
+#header, #headersubmissions, #headerfundraising
 {
   transform-origin: top left;
   -webkit-background-size: cover;
@@ -185,7 +185,7 @@ ul.style .first
   background-size: cover;
 }
 
-#header:before, #headersubmissions:before;
+#header:before, #headersubmissions:before, #headerfundraising:before
 {
   content: "";
   height: 100%;
@@ -203,6 +203,11 @@ background: url(../images/header.png) no-repeat center fixed;
 #headersubmissions
 {
   background: url(../images/submissionsimage.png) no-repeat center fixed;
+}
+
+#headerfundraising
+{
+  background: url(https://raw.githubusercontent.com/Kronos3/Webmaster-Nationals/gh-pages/images/chocolate.jpg) no-repeat center fixed;
 }
 
 /* Nav: Navigation bar at top of page */
