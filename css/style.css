@@ -997,7 +997,12 @@ img:hover
 
 .officerlink:hover
 {
-	color: white;
+	color: rgb(47,128,194)
+}
+
+.officerlink:hover
+{
+	color: rgb(47,140,230;
 }
 
 cite
