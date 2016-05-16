@@ -31,7 +31,7 @@ body,input,textarea,select
   color: #777;
 }
 
-h1,h2,h3,h4,h5,h6,p, i
+h1,h2,h3,h4,h5,h6,p,i,center
 {
   overflow: visible !important;
 }
@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6
 p
 {
   font-family: 'Droid Serif Mono';
+  font-size: 20px !important;
 }
 
 h1
@@ -754,7 +755,6 @@ hr
 img
 {
   width: 300px;
-  height: 300px;
   -webkit-transition: opacity 0.25s ease-in-out;
   opacity: 1;
   border-radius: 4px;
