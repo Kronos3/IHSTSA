@@ -550,6 +550,11 @@ background: url(../images/newheader.jpg) no-repeat center fixed;
 	border-color: 000;
 }
 
+#featured.row
+{
+  text-align: center !important;
+}
+
 #featured
 {
   padding-top: 50px;
