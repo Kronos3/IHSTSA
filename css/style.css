@@ -995,6 +995,11 @@ img:hover
 	font-style: italic;
 }
 
+.officerlink:hover
+{
+	color: white;
+}
+
 cite
 {
  padding-left: 40px;
