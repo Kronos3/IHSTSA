@@ -1,7 +1,20 @@
-$(document).ready(function() {
-	
-	setTimeout(function(){
-		$('body').addClass('loaded');
-	}, 3000);
-	
+$(window).scroll(function () {
+    var y = $(window).scrollTop(),
+        one = $('#off-one').offset().top - $(window).height();
+        three = $('#off-three').offset().top - $(window).height();
+        four = $('#off-four').offset().top - $(window).height();
+        five = $('#off-five').offset().top - $(window).height();
+    if (y > one) {
+        $('#off-one').addClass('animated slideInLeft');
+    }
+    if (y > three) {
+        $('#off-three').addClass('animated slideInRight');
+    }
+    if (y > four) {
+        $('#off-four').addClass('animated slideInLeft');
+    }
+    if (y > five) {
+        $('#off-five').addClass('animated slideInRight');
+    }
+    
 });
