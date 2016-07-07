@@ -130,7 +130,7 @@ body {
 }
 
 .top-desc {
-  font-size: 16px;
+  font-size: 18px;
   margin: 36px 0 36px 0;
 }
 
@@ -149,6 +149,8 @@ body {
   letter-spacing: -1px;
   line-height: 35px;
   font-weight: 100;
+  font-style: italic;
+  font-weight: bold;
 }
 
 @keyframes load-clickbait {
