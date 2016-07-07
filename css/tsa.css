@@ -25,6 +25,10 @@ body {
   z-index: -1;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 ::selection { 
   background: grey;
 }
@@ -80,15 +84,17 @@ body {
 }
 
 #hamburger {
-  position: absolute;
-  right: 0;
-  top: 50%;
+  position: fixed;
+  right: 35px;
+  top: 34px;
   transform: translateY(-50%);
   height: 42px;
   width: 42px;
   padding: 7px 9px 7px 9px;
   color: rgb(80, 77, 71);
-  z-index: 0;
+  z-index: 5;
+  background-color: #FFF;
+  border-radius: 50%;
 }
 
 #hamburger i {
@@ -180,7 +186,7 @@ body {
 
 @keyframes load-opactity-box {
   from {
-    margin-top: 660px;
+    margin-top: 460px;
   }
   to {
     margin-top: 0;
@@ -308,4 +314,104 @@ body {
 
 #read-more-top:hover ~ .svg-arrow-top {
   display: inline-block;
+}
+
+.officer-wrapper {
+  width: 1440px;
+  margin: 0 auto 0 auto;
+}
+
+.officer-info {
+  text-align: center;
+  padding: 100px 120px 81px 120px;
+}
+
+.officer-main {
+  font-size: 54px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+.officer-main i {
+  font-style: normal;
+  color: #DB5200;
+}
+
+.officer-info {
+  color: #969696;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.officer-card {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.officer-card-inner {
+  background-color: rgba(0,0,0,0.4);
+  height: 100%;
+  width: 100%;
+  padding: 117px 60px 54px 60px;
+}
+
+.off-one {
+  background-image: url(../img/francesca.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.off-two {
+  background-image: url(../img/freya.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.off-three {
+  background-image: url(../img/tristan.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.off-four {
+  background-image: url(../img/jacob.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.off-five {
+  background-image: url(../img/zak.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.officer-card:hover *
+.officer-card-inner *,
+.officer-card-inner:hover * {
+  text-decoration: none;
+}
+
+p.office {
+  color: #FFF;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+p.officer-name {
+  position: absolute;
+  color: #FFF;
+  font-weight: 900;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 0 80px 0;
 }
