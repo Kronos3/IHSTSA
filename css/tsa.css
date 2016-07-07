@@ -317,6 +317,7 @@ a:hover {
 }
 
 .officer-wrapper {
+  position: relative;
   width: 1440px;
   margin: 0 auto 0 auto;
 }
@@ -343,26 +344,63 @@ a:hover {
   font-weight: 100;
 }
 
-.officer-card {
-  position: relative;
-  overflow: hidden;
+.cards-top {
+  width: 100%;
   height: 600px;
-  margin: 0 0 0 0;
+  position: relative;
+}
+
+.cards-bottom {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.officer-card {
+  position: absolute;
+  overflow: hidden;
   padding: 0;
 }
 
+.officer-card::before {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  content: '';
+  background: rgba(0,0,0,0);
+  transition: background 0.5s;
+}
+
+.officer-card:hover::before {
+  background: rgba(0,0,0,0.6);
+}
+
+.officer-card.small {
+  height: 600px;
+  width: 32%;
+}
+
+.officer-card.large {
+  height: 400px;
+  width: 49%;
+}
+
 .officer-card-inner {
+  position: absolute;
   background-color: rgba(0,0,0,0.4);
   height: 100%;
   width: 100%;
+  top: 0;
   padding: 117px 60px 54px 60px;
 }
 
 .off-one {
   background-image: url(../img/francesca.jpg);
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
+  left: 0;
 }
 
 .off-two {
@@ -370,6 +408,8 @@ a:hover {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .off-three {
@@ -377,6 +417,7 @@ a:hover {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
+  right: 0;
 }
 
 .off-four {
@@ -384,6 +425,7 @@ a:hover {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
+  left: 0;
 }
 
 .off-five {
@@ -391,12 +433,11 @@ a:hover {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
+  right: 0;
 }
 
-.officer-card:hover *
-.officer-card-inner *,
-.officer-card-inner:hover * {
-  text-decoration: none;
+.officer-wrapper p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 p.office {
