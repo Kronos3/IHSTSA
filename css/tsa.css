@@ -286,8 +286,26 @@ body {
   margin-bottom: 40px;
 }
 
-.top-info-right a {
-  font-family: font-family: 'Roboto', sans-serif;
+#read-more-top {
+  font-family: 'Roboto', sans-serif;
   color: #FFF;
   font-weight: bold;
+}
+
+#read-more-top {
+  text-decoration: none;
+}
+
+.svg-arrow-top {
+  height: 15px;
+  width: 15px;
+  display: none;
+  vertical-align: sub;
+  transform: rotate(180deg);
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+}
+
+#read-more-top:hover ~ .svg-arrow-top {
+  display: inline-block;
 }
