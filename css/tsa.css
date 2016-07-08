@@ -495,10 +495,6 @@ i.color {
   left: 0;
 }
 
-.off-one.btn:active {
-  background-image: url(../img/francesca.jpg);
-}
-
 .off-two {
   background-image: url(../img/freya.jpg);
   background-size: auto 100%;
@@ -506,10 +502,6 @@ i.color {
   background-position: center center;
   left: 50%;
   transform: translateX(-50%);
-}
-
-.off-two.btn:active {
-  background-image: url(../img/freya.jpg);
 }
 
 .off-three {
@@ -520,10 +512,6 @@ i.color {
   right: 0;
 }
 
-.off-three.btn:active {
-  background-image: url(../img/tristan.jpg);
-}
-
 .off-four {
   background-image: url(../img/jacob.jpg);
   background-size: 100% auto;
@@ -532,20 +520,12 @@ i.color {
   left: 0;
 }
 
-.off-four.btn:active {
-  background-image: url(../img/jacob.jpg);
-}
-
 .off-five {
   background-image: url(../img/zak.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
-}
-
-.off-five.btn:active {
-  background-image: url(../img/zak.png);
 }
 
 .officer-wrapper p {
