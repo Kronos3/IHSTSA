@@ -99,6 +99,7 @@ a:hover {
   color: rgb(80, 77, 71);
   background-color: #FFF;
   border-radius: 50%;
+  outline:none;
   z-index: 101;
   transition: all 0.5s;
 }
@@ -128,16 +129,26 @@ a:hover {
 }
 
 .nav-logo img {
-  display: inline-block;
-  height: auto;
+  position: absolute;
   width: 75px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  border-radius: 4px;
+  transform: translateY(-50%) translateX(-50%);
 }
 
 .nav-logo {
   position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  border-radius: 50%;
+  background-color: #FFF;
   left: 50%;
-  bottom: 0;
-  transform: translateX(-50%) translateY(-75%);
+  bottom: 150px;
+  transform: translateY(50%) translateX(-50%);
 }
 
 #nav a {
