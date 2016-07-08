@@ -4,6 +4,7 @@ $(window).scroll(function () {
         three = $('#off-three').offset().top - $(window).height();
         four = $('#off-four').offset().top - $(window).height();
         five = $('#off-five').offset().top - $(window).height();
+        readmore = $('#event-read-more').offset().top - $(window).height();
     if (y > one) {
         $('#off-one').addClass('animated slideInLeft');
     }
@@ -16,5 +17,15 @@ $(window).scroll(function () {
     if (y > five) {
         $('#off-five').addClass('animated slideInRight');
     }
+    if (y > readmore) {
+        $('#event-read-more').addClass('animated flipInX');
+    }
     
 });
+
+$(".officer-card").hover(function(){
+    console.log ("hovered");
+    $(this).find(".officer-name").css("opacity", "1");
+    $(this).find(".officer-name::after").css("margin-bottom:", "130px");
+    }
+);

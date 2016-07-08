@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" width="210mm" height="297mm" viewBox="0 0 21000 29700" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+<svg version="1.2" width="188.72mm" height="182.37mm" viewBox="0 0 18872 18237" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
  <defs class="ClipPathGroup">
   <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
-   <rect x="0" y="0" width="21000" height="29700"/>
+   <rect x="0" y="0" width="18872" height="18237"/>
   </clipPath>
  </defs>
  <defs class="TextShapeIndex">
-  <g ooo:slide="id1" ooo:id-list="id3 id4"/>
+  <g ooo:slide="id1" ooo:id-list="id3"/>
  </defs>
  <defs class="EmbeddedBulletChars">
   <g id="bullet-char-template(57356)" transform="scale(0.00048828125,-0.00048828125)">
@@ -49,16 +49,13 @@
   <g>
    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
     <g class="Page">
-     <g class="com.sun.star.drawing.ClosedBezierShape">
+     <g class="com.sun.star.drawing.CustomShape">
       <g id="id3">
-       <rect class="BoundingBox" stroke="none" fill="none" x="10882" y="13588" width="5" height="4"/>
-       <path fill="rgb(0,0,0)" stroke="none" d="M 10885,13591 C 10885,13590 10886,13589 10886,13588 10882,13589 10880,13590 10885,13591 Z"/>
-      </g>
-     </g>
-     <g class="com.sun.star.drawing.ClosedBezierShape">
-      <g id="id4">
-       <rect class="BoundingBox" stroke="none" fill="none" x="1987" y="3887" width="16833" height="13299"/>
-       <path fill="rgb(255,255,255)" stroke="none" d="M 2339,11385 L 7787,16833 C 8256,17302 9016,17302 9484,16833 9953,16365 9953,15605 9484,15136 L 6085,11736 17619,11736 C 18281,11736 18819,11199 18819,10536 18819,9873 18281,9336 17619,9336 L 6085,9336 9484,5936 C 9953,5468 9953,4707 9484,4239 9250,4004 8943,3887 8636,3887 8329,3887 8021,4004 7787,4239 L 2339,9687 C 1870,10156 1870,10916 2339,11385 Z"/>
+       <rect class="BoundingBox" stroke="none" fill="none" x="1" y="-6" width="18876" height="18247"/>
+       <path fill="rgb(170,64,0)" stroke="none" d="M 18869,18239 L 2,-5 18875,1 18869,18239 18869,18239 Z M 18869,18239 L 18869,18239 Z M 2,-5 L 2,-5 Z"/>
+       <path fill="none" stroke="rgb(170,64,0)" d="M 18869,18239 L 2,-5 18875,1 18869,18239 18869,18239 Z"/>
+       <path fill="none" stroke="rgb(170,64,0)" d="M 18869,18239 L 18869,18239 Z"/>
+       <path fill="none" stroke="rgb(170,64,0)" d="M 2,-5 L 2,-5 Z"/>
       </g>
      </g>
     </g>
