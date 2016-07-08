@@ -397,7 +397,7 @@ a:hover {
   letter-spacing: -2px;
 }
 
-.officer-main i {
+i.color {
   font-style: normal;
   color: #DB5200;
 }
@@ -796,7 +796,7 @@ p.officer-name {
 }
 
 .bottom-events-title {
-  color: #666;
+  color: #969696;
   font-size: 54px;
   text-align: center;
   letter-spacing: -2px;
