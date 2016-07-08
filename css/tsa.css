@@ -878,6 +878,11 @@ p.officer-name {
   font-weight: 300;
 }
 
+.contact-info-mail a {
+  color: #AA4000;
+  font-weight: bold;
+}
+
 .address {
   margin: 0;
   font-size: 16px;
