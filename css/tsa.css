@@ -29,7 +29,9 @@ body {
   z-index: -1;
 }
 
-a:hover {
+a:hover,
+a:active,
+a:focus {
   text-decoration: none;
 }
 
@@ -97,15 +99,24 @@ a:hover {
   width: 42px;
   padding: 7px 9px 7px 9px;
   color: rgb(80, 77, 71);
-  background-color: #FFF;
+  background-color: rgba(255,255,255, 0);
   border-radius: 50%;
   outline:none;
   z-index: 101;
   transition: all 0.5s;
 }
 
-#hamburger i {
+i.btn-floating {
+  background-color: rgb(170, 64, 0);
+}
+
+i.btn-floating:hover {
+  background-color: rgb(211, 80, 0);
+}
+
+.waves-orange {
   animation-duration: 0.5s;
+  background-color: rgba(170, 64, 0, 0.65);
 }
 
 #nav {
@@ -207,7 +218,7 @@ a:hover {
   font-size: 100px;
   font-weight: 900;
   letter-spacing: -2px;
-  max-width: 80rem;
+  max-width: 550px;
   line-height: 92px;
 }
 
@@ -484,6 +495,10 @@ i.color {
   left: 0;
 }
 
+.off-one.btn:active {
+  background-image: url(../img/francesca.jpg);
+}
+
 .off-two {
   background-image: url(../img/freya.jpg);
   background-size: auto 100%;
@@ -491,6 +506,10 @@ i.color {
   background-position: center center;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.off-two.btn:active {
+  background-image: url(../img/freya.jpg);
 }
 
 .off-three {
@@ -501,6 +520,10 @@ i.color {
   right: 0;
 }
 
+.off-three.btn:active {
+  background-image: url(../img/tristan.jpg);
+}
+
 .off-four {
   background-image: url(../img/jacob.jpg);
   background-size: 100% auto;
@@ -509,12 +532,20 @@ i.color {
   left: 0;
 }
 
+.off-four.btn:active {
+  background-image: url(../img/jacob.jpg);
+}
+
 .off-five {
   background-image: url(../img/zak.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
+}
+
+.off-five.btn:active {
+  background-image: url(../img/zak.png);
 }
 
 .officer-wrapper p {
@@ -981,4 +1012,8 @@ p.officer-name {
   color: #FFF;
   font-size: 14px;
   font-weight: 100;
+}
+
+#event-read-more:hover {
+  color: #FFF;
 }

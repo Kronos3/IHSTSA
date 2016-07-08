@@ -44,13 +44,11 @@ function openNav () {
     if (navOpened == 0) {
         $("#nav").css("right", "0px");
         $("#hamburger").css("color", "rgb(255, 255, 255)");
-        $("#hamburger").css("background-color", "rgba(255, 255, 255, 0)");
         navOpened = 1;
     }
     else {
         $("#nav").css("right", "-500px");
         $("#hamburger").css("color", "rgb(80, 77, 71)");
-        $("#hamburger").css("background-color", "rgba(255, 255, 255, 1)");
         navOpened = 0;
     }
 }
