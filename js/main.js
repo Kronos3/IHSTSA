@@ -29,3 +29,9 @@ $(".officer-card").hover(function(){
     $(this).find(".officer-name::after").css("margin-bottom:", "130px");
     }
 );
+
+jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.document.location = $(this).data("href");
+    });
+});
