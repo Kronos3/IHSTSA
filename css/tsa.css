@@ -89,6 +89,7 @@ a:hover {
 
 #hamburger {
   position: fixed;
+  border:none;
   right: 35px;
   top: 34px;
   transform: translateY(-50%);
@@ -96,13 +97,59 @@ a:hover {
   width: 42px;
   padding: 7px 9px 7px 9px;
   color: rgb(80, 77, 71);
-  z-index: 5;
   background-color: #FFF;
   border-radius: 50%;
+  z-index: 101;
+  transition: all 0.5s;
 }
 
 #hamburger i {
   animation-duration: 0.5s;
+}
+
+#nav {
+  position: fixed;
+  right: -500px;
+  background: rgb(80, 77, 71);
+  padding: 50px 30px 60px 30px;
+  width: 500px;
+  height: 100%;
+  transition: right 0.5s;
+  z-index: 100;
+}
+
+.nav-title {
+  display: block;
+  color: #FFF;
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.nav-logo img {
+  display: inline-block;
+  height: auto;
+  width: 75px;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) translateY(-75%);
+}
+
+#nav a {
+  display: block;
+  color: #FFF;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  color: #AA4000;
 }
 
 .top-img {
