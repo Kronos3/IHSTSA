@@ -5,6 +5,7 @@ $(window).scroll(function () {
         four = $('#off-four').offset().top - $(window).height();
         five = $('#off-five').offset().top - $(window).height();
         readmore = $('#event-read-more').offset().top - $(window).height();
+        creator = $('#creator-box').offset().top - $(window).height();
     if (y > one) {
         $('#off-one').addClass('animated slideInLeft');
     }
@@ -20,7 +21,13 @@ $(window).scroll(function () {
     if (y > readmore) {
         $('#event-read-more').addClass('animated flipInX');
     }
-    
+    if (y > creator) {
+        $( "#creator-box" ).children().css('opacity', '0');
+        $( "#creator-box" ).children().css('animation', 'creator-content-load 1s');
+        $( "#creator-box" ).children().css('animation-fill-mode', 'forwards');
+        $( "#creator-box" ).children().css('animation-delay', '1s');
+        $('#creator-box').css('animation', 'creators-load 1s');
+    }
 });
 
 $(".officer-card").hover(function(){
@@ -29,9 +36,3 @@ $(".officer-card").hover(function(){
     $(this).find(".officer-name::after").css("margin-bottom:", "130px");
     }
 );
-
-jQuery(document).ready(function($) {
-    $(".clickable-row").click(function() {
-        window.document.location = $(this).data("href");
-    });
-});

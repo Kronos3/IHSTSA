@@ -642,6 +642,16 @@ p.officer-name {
   top: 130px;
 }
 
+@keyframes creators-load {
+  from {height: 0%;}
+  to {height: 85%;}
+}
+
+@keyframes creator-content-load {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
 .creators {
   position: absolute;
   bottom: 0;
@@ -685,6 +695,7 @@ p.officer-name {
   height: 76px;
   width: auto;
   background: rgba(255,255,255,0.7);
+  animation-delay: 1s;
 }
 
 .creator-name {
