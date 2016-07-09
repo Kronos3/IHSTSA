@@ -822,9 +822,9 @@ p.officer-name {
 .event-row {
   position: relative;
   height: 65px;
-  border-top: solid #f2f2f2 3px;
+  border-top: solid #e2e2e2 3px;
   font-weight: bold;
-  padding: 24.5px 24.5px 10px 0;
+  padding: 21.5px 24.5px 21.5px 0;
   width: 100%;
   display: block;
 }
@@ -834,6 +834,7 @@ p.officer-name {
   display: inline-block;
   font-size: 16px;
   color: #969696;
+  margin: 0;
 }
 
 .event-name {
@@ -877,12 +878,12 @@ p.officer-name {
 .event-row::before {
   position: absolute;
   content: '';
-  background: #f2f2f2;
+  background: #e2e2e2;
   width: 100%;
   height: 65px;
   display: inline-block;
   z-index: -1;
-  margin-top: -27.5px;
+  margin-top: -24.5px;
   opacity: 0;
   transition: opacity 0.5s;
 }
