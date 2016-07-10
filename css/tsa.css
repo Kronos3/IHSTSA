@@ -313,6 +313,7 @@ a:focus {
   letter-spacing: -2px;
   font-family: font-family: 'Roboto', sans-serif;
   font-weight: 900;
+  line-height: 70px;
 }
 
 .top-info-left p.main-info {
@@ -328,6 +329,13 @@ a:focus {
   right: 0;
   height: 110%;
   padding: 72px 90px 63px 90px;
+}
+
+@media screen and (max-width: 1270px){
+.top-info-right .read-more {
+  position: absolute !important;
+  bottom: 40px;
+}
 }
 
 .tsa-logo img {
@@ -373,7 +381,7 @@ a:focus {
 
 .officer-wrapper {
   position: relative;
-  width: 1440px;
+  width: 90%;
   margin: 0 auto 0 auto;
 }
 
@@ -436,7 +444,7 @@ i.color {
 }
 
 .officer-card.small {
-  height: 600px;
+  height: 100%;
   width: 32%;
 }
 
@@ -469,7 +477,7 @@ i.color {
 
 .off-one {
   background-image: url(../img/francesca.jpg);
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center center;
   left: 0;
@@ -486,7 +494,7 @@ i.color {
 
 .off-three {
   background-image: url(../img/tristan.jpg);
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
@@ -502,7 +510,7 @@ i.color {
 
 .off-five {
   background-image: url(../img/zak.png);
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
