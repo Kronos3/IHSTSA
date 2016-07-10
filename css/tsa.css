@@ -34,7 +34,6 @@ a:hover,
 a:active,
 a:focus {
   text-decoration: none;
-  outline:none;
 }
 
 ::selection { 
@@ -79,12 +78,15 @@ a:focus {
 .top-bar small {
   position: absolute;
   text-align: center;
+  
   font-size: 16px;
+  
   vertical-align: middle;
   line-height: 74px;
   height: 100%;
   width: 100%;
   font-weight: bold;
+  
   color: #B5B5B5;
 }
 
@@ -92,7 +94,7 @@ a:focus {
   position: fixed;
   border:none;
   right: 35px;
-  top: 7px;
+  top: 34px;
   height: 60px;
   width: 60px;
   padding: 9px 9px 9px 9px;
@@ -311,7 +313,6 @@ a:focus {
   letter-spacing: -2px;
   font-family: font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  line-height: 75px;
 }
 
 .top-info-left p.main-info {
@@ -548,8 +549,6 @@ p.officer-name {
   padding: 117px 30px 36px 30px;
 }
 
-@media screen and (min-width: 1000px) {
-
 .top-event-name {
   position: absolute;
   font-size: 100px;
@@ -558,13 +557,11 @@ p.officer-name {
   font-weight: bold;
   text-align: center;
   color: #fff;
-  width: 85%;
+  max-width: 960px;
   line-height: 82px;
   left:50%;
   top: 50px;
   transform: translateX(-50%);
-  z-index: 10;
-
 }
 
 .top-event-content {
@@ -573,42 +570,10 @@ p.officer-name {
   transform: translateX(-50%);
   position: absolute;
   width: 85%;
-  height: 40%;
+  height: 430px;
   background: #ECECEC;
   margin-bottom: 36px;
-  padding: 30px 5% 5% 5%;
-}
-
-}
-
-@media screen and (max-width: 1000px) {
-.top-event-name {
-  position: absolute;
-  font-size: 100px;
-  font-family: font-family: 'Roboto', sans-serif;
-  letter-spacing: -3px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  width: 85%;
-  line-height: 82px;
-  left:50%;
-  top: 50px;
-  transform: translateX(-50%);
-  z-index: 10;
-
-}
-
-.top-event-content {
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-  width: 100%;
-  height: 40%;
-  background: #ECECEC;
-  padding: 30px 5% 5% 5%;
-}
+  padding: 72px 90px 90px 90px;
 }
 
 .top-event-icon {
@@ -689,19 +654,8 @@ p.officer-name {
 .clickbait-event-top {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-}
-
-@media screen and (min-width: 840px) {
-.clickbait-event-top {
-  top: 30%;
-}
-}
-
-@media screen and (max-width: 840px) {
-.clickbait-event-top {
-  top: 40%;
-}
+  transform: translateX(-50%) !important;
+  top: 300px;
 }
 
 .second-event-wrapper {
@@ -742,21 +696,6 @@ p.officer-name {
   text-decoration: none;
 }
 
-.second-event p {
-  z-index: 5;
-}
-
-@keyframes creators-load {
-  from {height: 0%;}
-  to {height: 85%;}
-}
-
-@keyframes creator-content-load {
-  from {opacity: 0}
-  to {opacity: 1}
-}
-@media screen and (min-width: 1400px) {
-
 .second-event-title {
   position: absolute;
   font-size: 54px;
@@ -767,6 +706,16 @@ p.officer-name {
   max-width: 620px;
   left:10%;
   top: 130px;
+}
+
+@keyframes creators-load {
+  from {height: 0%;}
+  to {height: 85%;}
+}
+
+@keyframes creator-content-load {
+  from {opacity: 0}
+  to {opacity: 1}
 }
 
 .creators {
@@ -828,85 +777,6 @@ p.officer-name {
   font-size: 16px;
   text-align: right;
   color: #FFF;
-}
-}
-@media screen and (max-width: 1400px) {
-
-.second-event-title {
-  position: absolute;
-  font-size: 54px;
-  font-family: font-family: 'Roboto', sans-serif;
-  letter-spacing: -1px;
-  font-weight: bold;
-  color: #fff;
-  max-width: 620px;
-  left:15%;
-  top: 230px;
-}
-
-.creators {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  height: 85%;
-  background-color: rgba(255,255,255, 0.5);
-  width: 85%;
-  transform: translateX(-50%);
-  padding: 65px 175px 90px 90px;
-}
-
-.creators-corner {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 15px;
-  height: 15px;
-}
-
-.second-event-info {
-  position: absolute;
-  font-size: 30px;
-  max-width: 600px;
-  color: #FFF;
-  font-weight: 300;
-  left:50%;
-  top: 400px;
-  transform: translateX(-50%);
-}
-
-.second-event-icon {
-  position: absolute;
-  right: 90px;
-  top: 60px;
-  border-radius: 50%;
-  width: 76px;
-  height: 76px;
-  overflow: hidden;
-  border: solid 2px #FFF;
-}
-
-.second-event-icon img {
-  height: 76px;
-  width: auto;
-  background: rgba(255,255,255,0.7);
-  animation-delay: 1s;
-}
-
-.creator-name {
-  font-size: 20px;
-  color: #FFF;
-  letter-spacing: -1px;
-  font-weight: bold;
-  text-align: right;
-  margin: 0;
-}
-
-.creator-info {
-  font-size: 16px;
-  text-align: right;
-  color: #FFF;
-}
-
 }
 
 .bottom-events {
