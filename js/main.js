@@ -1,9 +1,9 @@
 $(window).scroll(function () {
     var y = $(window).scrollTop(),
-        one = $('#off-one').offset().top - $(window).height();
-        three = $('#off-three').offset().top - $(window).height();
-        four = $('#off-four').offset().top - $(window).height();
-        five = $('#off-five').offset().top - $(window).height();
+        one = $('#off-one').offset().top - $(window).height() - 100;
+        three = $('#off-three').offset().top - $(window).height() - 100;
+        four = $('#off-four').offset().top - $(window).height() - 100;
+        five = $('#off-five').offset().top - $(window).height() - 100;
         readmore = $('#event-read-more').offset().top - $(window).height();
         creator = $('#creator-box').offset().top - $(window).height();
     if (y > one) {

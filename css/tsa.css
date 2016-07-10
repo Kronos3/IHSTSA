@@ -18,6 +18,7 @@
 html {
   position: relative;
   height: 100%;
+  z-index: -1;
 }
 
 body {
@@ -94,29 +95,31 @@ a:focus {
   border:none;
   right: 35px;
   top: 34px;
-  transform: translateY(-50%);
-  height: 42px;
-  width: 42px;
-  padding: 7px 9px 7px 9px;
+  height: 60px;
+  width: 60px;
+  padding: 9px 9px 9px 9px;
   color: rgb(80, 77, 71);
-  background-color: rgba(255,255,255, 0);
+  background-color: rgb(170, 64, 0);
   border-radius: 50%;
   outline:none;
   z-index: 101;
   transition: all 0.5s;
 }
 
-i.btn-floating {
-  background-color: rgb(170, 64, 0);
-}
-
-i.btn-floating:hover {
+#hamburger:hover {
   background-color: rgb(211, 80, 0);
 }
 
 .waves-orange {
   animation-duration: 0.5s;
   background-color: rgba(170, 64, 0, 0.65);
+}
+
+#hamburger i {
+  top: 50%;
+  left: 0;
+  width: 37px;
+  height: auto;
 }
 
 #nav {
@@ -366,30 +369,6 @@ i.btn-floating:hover {
   font-family: font-family: 'Roboto', sans-serif;
   font-weight: 100;
   margin-bottom: 40px;
-}
-
-#read-more-top {
-  font-family: 'Roboto', sans-serif;
-  color: #FFF;
-  font-weight: bold;
-}
-
-#read-more-top {
-  text-decoration: none;
-}
-
-.svg-arrow-top {
-  height: 15px;
-  width: 15px;
-  display: none;
-  vertical-align: sub;
-  transform: rotate(180deg);
-  animation-duration: 0.1s;
-  animation-duration: 0.1s;
-}
-
-#read-more-top:hover ~ .svg-arrow-top {
-  display: inline-block;
 }
 
 .officer-wrapper {
