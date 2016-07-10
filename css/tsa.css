@@ -475,9 +475,26 @@ i.color {
   width: 100%;
 }
 
+@media screen and (max-width: 1650px) {
+.off-one {
+  background-size: auto 100%;
+}
+.off-three {
+  background-size: auto 100%;
+}
+}
+
+@media screen and (min-width: 1650px) {
+.off-one {
+  background-size: 100% auto;
+}
+.off-three {
+  background-size: 100% auto;
+}
+}
+
 .off-one {
   background-image: url(../img/francesca.jpg);
-  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center center;
   left: 0;
@@ -494,7 +511,6 @@ i.color {
 
 .off-three {
   background-image: url(../img/tristan.jpg);
-  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
@@ -508,9 +524,19 @@ i.color {
   left: 0;
 }
 
+@media screen and (min-width: 960px) {
+.off-five {
+  background-size: 100% auto;
+}
+}
+@media screen and (max-width: 960px) {
+.off-five {
+  background-size: auto 100%;
+}
+}
+
 .off-five {
   background-image: url(../img/zak.png);
-  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
@@ -559,7 +585,6 @@ p.officer-name {
 
 .top-event-name {
   position: absolute;
-  font-size: 100px;
   font-family: font-family: 'Roboto', sans-serif;
   letter-spacing: -3px;
   font-weight: bold;
@@ -570,9 +595,14 @@ p.officer-name {
   left:50%;
   top: 50px;
   transform: translateX(-50%);
+  z-index: 1;
 }
 
 @media screen and (min-height: 820px) {
+
+.top-event-name {
+  font-size: 100px;
+}
 
 .top-event-content {
   bottom: 0;
@@ -588,6 +618,10 @@ p.officer-name {
 }
 
 @media screen and (max-height: 820px) {
+
+.top-event-name {
+  font-size: 70px;
+}
 
 .top-event-content {
   bottom: 0;
