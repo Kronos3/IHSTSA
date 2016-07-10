@@ -1,26 +1,7 @@
 $(window).scroll(function () {
     var y = $(window).scrollTop(),
-        one = $('#off-one').offset().top - $(window).height() - 100;
-        three = $('#off-three').offset().top - $(window).height() - 100;
-        four = $('#off-four').offset().top - $(window).height() - 100;
-        five = $('#off-five').offset().top - $(window).height() - 100;
         readmore = $('#event-read-more').offset().top - $(window).height();
         creator = $('#creator-box').offset().top - $(window).height();
-    if (y > one) {
-        $('#off-one').addClass('animated slideInLeft');
-    }
-    if (y > three) {
-        $('#off-three').addClass('animated slideInRight');
-    }
-    if (y > four) {
-        $('#off-four').addClass('animated slideInLeft');
-    }
-    if (y > five) {
-        $('#off-five').addClass('animated slideInRight');
-    }
-    if (y > readmore) {
-        $('#event-read-more').addClass('animated flipInX');
-    }
     if (y > creator) {
         $( "#creator-box" ).children().css('opacity', '0');
         $( "#creator-box" ).children().css('animation', 'creator-content-load 1s');
