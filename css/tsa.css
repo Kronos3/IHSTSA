@@ -1140,11 +1140,23 @@ p.officer-name {
   max-width: 75%;
   margin: 0 auto;
   position: relative;
+  border-bottom: rgba(150,150,150,0.2) 1px solid;
 }
 
 .leadership-officer-img {
   border-radius: 50%;
   border: 5px solid #FFF;
+}
+
+.leadership-officer-img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
 }
 
 .leadership-officer.off-left .leadership-officer-img {
@@ -1171,4 +1183,9 @@ p.officer-name {
   width: 250px;
   overflow: hidden;
   right: 0;
+}
+
+.leadership-officer-img img {
+  width: 250px;
+  height: auto;
 }
