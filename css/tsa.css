@@ -186,7 +186,8 @@ a:focus {
   position: relative;
   width: 100%;
   height: 734px;
-  background-image: url(../img/header.jpg);
+  background: url(../img/header.jpg) no-repeat center 10%;
+  background-size: cover;
 }
 
 .top-img-wrapper {
