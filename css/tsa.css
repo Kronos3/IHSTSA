@@ -1137,3 +1137,50 @@ p.officer-name {
   width: 250px;
   height: auto;
 }
+
+.officer-desc-wrapper {
+    width: 70vw;
+    max-width: 900px;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 80px 90px;
+}
+
+p.officer-header {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.officer-sec > * {
+    display: inline-block;
+}
+
+.officer-sec {
+    position: relative;
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 25px;
+}
+
+.officer-sec > .officer-img {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 6px solid #eee;
+    border-radius: 50%;
+    margin: 35px 0;
+}
+
+.officer-sec > .officer-desc {
+    max-width: calc(100% - 15vw);
+    width: 100%;
+    left: 2vw;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    color: #666;
+    font-style: italic;
+}
