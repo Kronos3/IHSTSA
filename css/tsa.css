@@ -127,7 +127,7 @@ a:focus {
   top: 0;
   /*background: rgb(80, 77, 71);*/
   padding: 50px 30px 60px 30px;
-  width: 500px;
+  width: 350px;
   margin: 0;
   height: 100%;
   transition: right 0.5s;
@@ -164,7 +164,7 @@ a:focus {
   height: 100px;
   z-index: 2;
   border-radius: 50%;
-  background-color: #FFF;
+  background-color: #aaa;
   left: 50%;
   bottom: 150px;
   transform: translateY(50%) translateX(-50%);
