@@ -4,9 +4,9 @@
 <head>
 <meta charset="utf-8" />
    <title>Ithaca High School TSA</title>
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="css/hover.css">
-   <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
+   <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
    <link href="css/font-awesome.min.css" rel="stylesheet">
    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
    <link rel="stylesheet" type="text/css" href="css/tsa.css">
@@ -14,10 +14,28 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
    <script src="js/animatescroll.js"></script>
    <script type="text/javascript" src="js/materialize.min.js"></script>
-   <script src="js/main.js"></script>
 </head>
 
 <body>
+<script>
+var navOpened = 0;
+var navIn = "slideInRight";
+var navOut = "slideOutRight";
+
+function openNav () {
+    if (navOpened == 0) {
+        $("#nav").css("right", "0px");
+        $("#hamburger").css("color", "rgb(255, 255, 255)");
+        navOpened = 1;
+    }
+    else {
+        $("#nav").css("right", "-500px");
+        $("#hamburger").css("color", "rgb(80, 77, 71)");
+        navOpened = 0;
+    }
+}
+
+</script>
 <button onclick="openNav()" id="hamburger" class="animated zoomIn waves-effect waves-circle waves-light btn-floating secondary-content waves-orange"><i class="fa fa-bars fa-2x"></i></button>
 <div id="nav" class="card">
    <p class="nav-title">Pages</p>

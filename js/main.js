@@ -11,12 +11,6 @@ $(window).scroll(function () {
     }
 });
 
-$(".officer-card").hover(function(){
-    $(this).find(".officer-name").css("opacity", "1");
-    $(this).find(".officer-name::after").css("margin-bottom:", "130px");
-    }
-);
-
 var navOpened = 0;
 var navIn = "slideInRight";
 var navOut = "slideOutRight";
