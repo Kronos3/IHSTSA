@@ -1174,13 +1174,24 @@ p.officer-header {
 }
 
 .officer-sec > .officer-desc {
-    max-width: calc(100% - 18vw);
+    max-width: calc(100% - 200px);
     width: 100%;
-    left: 2vw;
+    left: calc(50% - 140px);
+    transform: translate(-30%);
     vertical-align: middle;
     text-align: center;
     position: relative;
     margin: 0;
     color: #666;
     font-style: italic;
+}
+
+@media screen (max-width: 800px) {
+
+.officer-sec > .officer-desc {
+    display: block;
+    left: initial;
+    transform: none;
+}
+
 }
