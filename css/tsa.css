@@ -1174,7 +1174,7 @@ p.officer-header {
 }
 
 .officer-sec > .officer-desc {
-    max-width: calc(100% - 15vw);
+    max-width: calc(100% - 18vw);
     width: 100%;
     left: 2vw;
     vertical-align: middle;
