@@ -124,9 +124,11 @@ a:focus {
 #nav {
   position: fixed;
   right: -500px;
-  background: rgb(80, 77, 71);
+  top: 0;
+  /*background: rgb(80, 77, 71);*/
   padding: 50px 30px 60px 30px;
   width: 500px;
+  margin: 0;
   height: 100%;
   transition: right 0.5s;
   z-index: 100;
@@ -138,7 +140,7 @@ a:focus {
 
 .nav-title {
   display: block;
-  color: #FFF;
+  color: #505050;
   font-size: 34px;
   text-align: center;
   font-weight: bold;
@@ -170,7 +172,7 @@ a:focus {
 
 #nav a {
   display: block;
-  color: #FFF;
+  color: #505050;
   font-size: 24px;
   text-align: center;
   font-weight: bold;
@@ -413,21 +415,63 @@ i.color {
 
 .cards-top {
   width: 100%;
-  height: 600px;
-  position: relative;
-}
-
-.cards-bottom {
-  margin-top: 20px;
-  width: 100%;
+  max-width: 1200px;
+  left: 50%;
+  transform: translateX(-50%);
   height: 400px;
   position: relative;
+  margin-bottom: 20px;
+}
+
+#off-one {
+    background-image: url(../img/SAT.jpg);
+}
+
+#off-two {
+    background-image: url(../img/reporter.jpg);
+}
+
+#off-three {
+    background-image: url(../img/secretary.jpg);
+}
+
+#off-four {
+    background-image: url(../img/treasurer.jpg);
+}
+
+#off-five {
+    background-image: url(../img/vice.jpg);
+}
+
+#off-six {
+    background-image: url(../img/pres.jpg);
 }
 
 .officer-card {
-  position: absolute;
+  position: relative;
   overflow: hidden;
   padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 33%;
+  padding: 117px 60px 54px 60px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.officer-card::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    top: 0;
+    transition: width .5s ease;
+    left: 0;
+    height: 100%;
+    background: rgba(255,255,255, 0.3);
+}
+
+.officer-card:hover::after {
+    width: 100%;
 }
 
 .officer-card::before {
@@ -445,105 +489,6 @@ i.color {
 .officer-card:hover::before {
   left: 10%;
   opacity: 1;
-}
-
-.officer-card.small {
-  height: 100%;
-  width: 32%;
-}
-
-.officer-card.large {
-  height: 400px;
-  width: 49%;
-}
-
-.officer-card-inner {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  padding: 117px 60px 54px 60px;
-}
-
-.officer-opacity {
-  position: absolute;
-  background: rgba(255,255,255, 0.3);
-  height: 100%;
-  width: 0%;
-  right: 0;
-  top: 0;
-  transition: width 0.5s;
-}
-
-.officer-card:hover .officer-opacity {
-  width: 100%;
-}
-
-@media screen and (max-width: 1650px) {
-.off-one {
-  background-size: auto 100%;
-}
-.off-three {
-  background-size: auto 100%;
-}
-}
-
-@media screen and (min-width: 1650px) {
-.off-one {
-  background-size: 100% auto;
-}
-.off-three {
-  background-size: 100% auto;
-}
-}
-
-.off-one {
-  background-image: url(../img/francesca.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  left: 0;
-}
-
-.off-two {
-  background-image: url(../img/freya.jpg);
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.off-three {
-  background-image: url(../img/tristan.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  right: 0;
-}
-
-.off-four {
-  background-image: url(../img/jacob.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center center;
-  left: 0;
-}
-
-@media screen and (min-width: 960px) {
-.off-five {
-  background-size: 100% auto;
-}
-}
-@media screen and (max-width: 960px) {
-.off-five {
-  background-size: auto 100%;
-}
-}
-
-.off-five {
-  background-image: url(../img/zak.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  right: 0;
 }
 
 .officer-wrapper p {
@@ -976,7 +921,8 @@ p.officer-name {
 
 .tsa-logo-bottom img {
   position: absolute;
-  width: 200px;
+  max-width: 200px;
+  width: calc(15vw - 40px);
   height: auto;
   top: 50%;
   left: 50%;
@@ -987,8 +933,10 @@ p.officer-name {
 
 .tsa-logo-bottom {
   position: absolute;
-  width: 240px;
-  height: 240px;
+  max-width: 240px;
+  max-height: 240px;
+  height: 15vw;
+  width: 15vw;
   z-index: 2;
   border-radius: 50%;
   background-color: #FFF;
