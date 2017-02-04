@@ -1230,6 +1230,7 @@ p.officer-header {
 	padding-top: 180px;
 	color: #fff;
 	width:420px;
+	min-height: 92px; 
 }
 
 .course-img {
@@ -1238,8 +1239,8 @@ p.officer-header {
 	left: 0;
 	z-index: 1;
 	object-fit: cover;
-	height: 320px;
 	filter: sepia(40%) contrast(75%);
+	height: 320px;
 }
 
 @media (min-width: 1100px) {
