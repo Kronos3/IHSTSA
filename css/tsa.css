@@ -1141,9 +1141,7 @@ p.officer-name {
 .officer-desc-wrapper {
     width: 70vw;
     max-width: 900px;
-    margin: 0;
-    left: 50%;
-    transform: translate(-50%);
+	margin: 0 auto !important;
     padding: 80px 90px;
 }
 
@@ -1194,4 +1192,62 @@ p.officer-header {
     transform: none;
 }
 
+}
+
+.top-padding.courses {
+	background: rgb(170, 64, 0);
+	position:fixed;
+	height: 72px;
+	z-index: 6;
+}
+
+.top-height {
+	position: relative;
+	height: 71px;
+	width:100%;
+	display: block;
+	top: 0;
+	content: '';
+	margin-bottom: 0;
+	
+}
+
+.courses-wrapper {
+	width: 100%;
+	overflow:hidden;
+}
+
+.course-entry {
+	position: relative;
+    height: calc(100vh - 72px);
+	z-index: 2;
+}
+
+.course-entry > h1 {
+	font-size: 42px;
+	position: relative;
+	margin: 0 0 120px 0;
+	padding-top: 180px;
+	color: #fff;
+	width:420px;
+}
+
+.course-img {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+	object-fit: cover;
+	height: 320px;
+	filter: sepia(40%) contrast(75%);
+}
+
+@media (min-width: 1100px) {
+
+.course-img {
+	width: 100%;
+	max-width: 960px;
+	left: 50%;
+	transform: translateX(-50%);
+}
 }
