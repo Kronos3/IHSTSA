@@ -27,3 +27,18 @@ function openNav () {
         navOpened = 0;
     }
 }
+
+$( document ).ready(function() {
+    for (var i=0; i != $('.navmk2 > li').length; i++){
+        $('.navmk2 > li')[i].addEventListener('click', function () {
+            window.location.href = $(this).data ('href');
+        }, false);
+    }
+    for (var i=0; i != $('.navmk3 > li').length; i++){
+        $('.navmk3 > li')[i].addEventListener('click', function () {
+            window.location.href = $(this).data ('href');
+        }, false);
+    }
+});
+
+

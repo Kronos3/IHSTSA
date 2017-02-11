@@ -1253,3 +1253,57 @@ p.officer-header {
 	transform: translateX(-50%);
 }
 }
+
+.navmk2 {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    height: 60px;
+}
+
+.navmk2 > li {
+    display: inline-block;
+    font-weight: 700;
+    width: 7vw;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 2px;
+    height: 100%;
+    border-bottom: 0.1mm solid #ddd;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.navmk2 > li.external {
+    border: 0.1mm solid #ddd;
+}
+
+.navmk2 > li:hover {
+    color: rgb(170, 64, 0);
+    border-color: rgb(170, 64, 0);
+}
+
+.navmk3 {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    height: 60px;
+}
+
+.navmk3 > li {
+    display: inline-block;
+    font-weight: 700;
+    width: 7vw;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 2px;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    color: #fff;
+}
+
