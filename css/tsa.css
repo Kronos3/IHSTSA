@@ -13,6 +13,9 @@
 /* Montserrat */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+/* Slabo */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
 /**************************** CSS ****************************/
 
 html {
@@ -23,7 +26,7 @@ html {
 
 body {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   background-color: #FFF;
   overflow: auto;
   position: relative;
@@ -1143,6 +1146,7 @@ p.officer-name {
     max-width: 900px;
 	margin: 0 auto !important;
     padding: 80px 90px;
+    font-family: 'Slabo';
 }
 
 p.officer-header {
@@ -1223,13 +1227,16 @@ p.officer-header {
 	z-index: 2;
 }
 
+.course-entry {
+    font-size: 1.04vw;
+}
+
 .course-entry > h1 {
 	font-size: 42px;
 	position: relative;
 	margin: 0 0 120px 0;
 	padding-top: 180px;
 	color: #fff;
-	width:420px;
 	height: 320px;
     margin-bottom: 48px;
 }

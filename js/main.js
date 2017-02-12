@@ -1,4 +1,5 @@
 $(window).scroll(function () {
+    try {
     var y = $(window).scrollTop(),
         readmore = $('#event-read-more').offset().top - $(window).height();
         creator = $('#creator-box').offset().top - $(window).height();
@@ -9,6 +10,9 @@ $(window).scroll(function () {
         $( "#creator-box" ).children().css('animation-delay', '1s');
         $('#creator-box').css('animation', 'creators-load 1s');
     }
+    }
+    catch (e) {};
+
 });
 
 var navOpened = 0;
