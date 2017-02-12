@@ -1228,7 +1228,7 @@ p.officer-header {
 }
 
 .course-entry {
-    font-size: 1.04vw;
+    font-size: 18px;
 }
 
 .course-entry > h1 {
@@ -1314,3 +1314,12 @@ p.officer-header {
     color: #fff;
 }
 
+.course-intro::before {
+    content: 'STEM Courses at IHS';
+    font-size: 32px;
+    font-weight: 700;
+}
+.course-intro {
+    font-size: 18px;
+    padding: 30px 0;
+}
