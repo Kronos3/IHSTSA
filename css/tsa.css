@@ -1331,3 +1331,7 @@ p.officer-header {
     font-size: 18px;
     padding: 30px 0;
 }
+
+.bib img {
+    max-width: 720px;
+}
