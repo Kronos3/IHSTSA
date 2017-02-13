@@ -337,7 +337,7 @@ a:focus {
   width: 50%;
   right: 0;
   height: 110%;
-  padding: 72px 90px 63px 90px;
+  padding: 62px 90px 63px 90px;
 }
 
 @media screen and (max-width: 1270px){
@@ -383,9 +383,9 @@ a:focus {
   color: #B5B5B5;
   line-height: 30px;
   font-size: 18px;
-  font-family: font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .officer-wrapper {
