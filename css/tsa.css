@@ -1335,3 +1335,23 @@ p.officer-header {
 .bib img {
     max-width: 720px;
 }
+
+.crowdfunding {
+    position: relative;
+    height: 370px;
+    max-width: 660px;
+    margin: 35px auto;
+}
+
+.crowdfunding p {
+    color: #969696;
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+#drive-viewer-video-player-object-0 {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
