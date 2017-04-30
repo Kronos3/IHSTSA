@@ -24,14 +24,13 @@ $(window).ready(function () {
         $(".stars").get(0).appendChild(d.cloneNode(true));
         $(".stars").get(0).appendChild(d.cloneNode(true));
         $(".stars").get(0).appendChild(d.cloneNode(true));
-        $(".stars").get(0).appendChild(d.cloneNode(true));
     }
     
     /* Set their positions randomly */
     for (var i = 0; i != $('.stars > svg').length; i++) {
         setup_pos_svg ($('.stars > svg').get(i), (Math.random() * (-0.04 - 0.04) + 0.04).toFixed(4),(Math.random() * (-0.120 - 0.12) + 0.12).toFixed(4));
-        $($('.stars > svg').get(i)).css ("top", (Math.random() * (80 - 0) + 0).toFixed(0) + "%");
-        $($('.stars > svg').get(i)).css ("left", (Math.random() * (140 - 0) + 0).toFixed(0) + "%");
+        $($('.stars > svg').get(i)).css ("top", (Math.random() * (59 - 0) + 0).toFixed(0) + "%");
+        $($('.stars > svg').get(i)).css ("left", (Math.random() * (100 - 0) + 0).toFixed(0) + "%");
     }
     
     /* Catch mouse movement */
@@ -95,18 +94,9 @@ function set_rot (e, x, y) { // Use negative for inverse
     $(e).css("transform", "rotateY(" + x * $(e).data ('xfactor') + "deg)" + "rotateX(" + y * $(e).data ('yfactor') + "deg)");
 }
 
-var p_rot = 0;
-
-var lastScrollTop = 0;
-
 $(window).scroll (function (e) {
     var st = $(this).scrollTop();
-    if (st > lastScrollTop){
-        p_rot += 1;
-    } else {
-        p_rot -= 1;
-    }
-    lastScrollTop = st;
+    var p_rot = 0.02 * st;
     $('#planetsvg').css ('transform', 'translateX(-50%) rotateZ({0}deg)'.format(p_rot));
     if (st == 0) {
         $('.nav').removeClass ('down');

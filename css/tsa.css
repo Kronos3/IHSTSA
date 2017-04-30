@@ -33,7 +33,7 @@ html {
 
 body {
   height: 100%;
-  font-family: 'Roboto';
+  font-family: "acumin-pro",Arial,Sans-Serif;
   background-color: #FFF;
   overflow: auto;
   position: relative;
@@ -58,14 +58,13 @@ a:focus {
     border-bottom: solid 1px;
     border-bottom-color: rgba(255,255,255,0.30);
     transition: all ease 0.3s;
-    background: rgba(34, 35, 38, 0.8);
+    /*background: rgba(34, 35, 38, 0.8);*/
 }
 
 .nav a {
     display: inline-block;
     height: 100%;
-    line-height: 110px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #fff;
     transition: all ease 0.3s;
@@ -76,6 +75,14 @@ a:focus {
     text-align: center;
     position: relative;
     padding: 0 20px;
+    margin: 0;
+    list-style: none;
+    font-family: "brandon-grotesque",Arial,Sans-Serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 110px;
+    letter-spacing: 1.25px;
+    
 }
 
 .nav-inner {
@@ -121,7 +128,7 @@ a:focus {
     position: absolute;
     height: 120vh;
     display: block;
-    clip-path: polygon(0 0, 100% 0, 100% 84%, 61% 100%, 59% 100%, 0 84%);
+    clip-path: polygon(100% 0, 100% 75%, 61% 100%, 59% 100%, 0 75%, 0 0);
 }
 
 .lander-inner {
@@ -129,7 +136,7 @@ a:focus {
     position: absolute;
     height: 120vh;
     display: block;
-    clip-path: polygon(0 0, 100% 0, 100% 84%, 61% 100%, 59% 100%, 0 84%);
+    clip-path: polygon(100% 0, 100% 75%, 61% 100%, 59% 100%, 0 75%, 0 0);
     overflow: hidden;
 }
 
@@ -178,8 +185,8 @@ a:focus {
 
 #planetsvg {
     bottom: -30%;
-    width: 90vh;
-    height: 90vh;
+    width: 100vh;
+    height: 100vh;
     display: block;
     position: absolute;
     left: 60%;
@@ -188,9 +195,9 @@ a:focus {
 
 #moonsvg {
     left: 30px;
-    width: 200px;
-    height: 200px;
-    bottom: 500px;
+    width: 30vh;
+    height: 30vh;
+    bottom: 10vh;
 }
 
 #sunsvg {
@@ -217,12 +224,13 @@ a:focus {
     border-radius: 50%;
     color: #fff;
     position: absolute;
-    top: 115vh;
-    left: 14vw;
+    left: 26vw;
+    top: 100vh;
+    transform: translateX(-50%);
 }
 
 .num-1 span {
-    font-size: 120px;
+    font-size: 82px;
     width: 300px;
     text-align: center;
     display: inline-block;
@@ -230,13 +238,63 @@ a:focus {
 }
 
 .num-1 p {
-    width: 160px;
+    width: 200px;
     position: absolute;
     text-align: center;
     display: inline-block;
-    margin: 10px 0 0 0;
+    margin: 0;
     left: 50%;
     font-size: 16px;
     font-weight: 300;
     transform: translateX(-50%);
+}
+
+#logo {
+    margin: 35px 40px;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    transition: all ease 0.3s;
+}
+
+#logo > svg {
+    height: 40px;
+    width: 130px;
+    transition: all ease 0.3s;
+}
+
+#logo #id4 > path,
+#logo #id8 > path,
+#logo #id6 > path {
+    transition: all ease 0.3s;
+}
+
+.nav.down > #logo #id4 > path,
+.nav.down > #logo #id8 > path,
+.nav.down > #logo #id6 > path {
+    fill: #222326 !important;
+}
+
+.nav.down > #logo {
+    margin: 15px 40px;
+}
+
+.intro {
+    display: block;
+    max-width: 1010px;
+    width: 70vw;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.intro h3 {
+    color: #222326;
+    font-weight: bold;
+    font-size: 62px;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 22px;
+    color: #606063;
 }
