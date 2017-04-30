@@ -184,7 +184,6 @@ a:focus {
     position: absolute;
     left: 60%;
     transform: translateX(-50%) rotateY(0deg);
-    transition: 0.2s ease all;
 }
 
 #moonsvg {
