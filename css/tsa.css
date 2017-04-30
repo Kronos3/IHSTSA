@@ -76,7 +76,7 @@ a:focus {
     transition: all ease 0.3s;
     width: 20%;
     min-width: 60px;
-    max-width: 160px;
+    max-width: 140px;
     text-decoration: none;
     text-align: center;
     position: relative;
@@ -219,7 +219,7 @@ a:focus {
 }
 
 .nav.down a {
-    color: #222326;
+    color: #606063;
     line-height: 90px;
 }
 
