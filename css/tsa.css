@@ -662,19 +662,23 @@ section.--toc-section:last-child .arrow {
 
 .footer .footer-inner-left a {
     display:block;
-    transition: all ease 0.2s;
     color: #fff;
     font-family: "brandon-grotesque",Arial,Sans-Serif;
     text-transform: uppercase;
     letter-spacing: 1.25px;
     line-height: 160%;
+    transition: all ease 0.2s;
+}
+
+.footer a {
+    transition: all 0.2s ease;
 }
 
 .footer .footer-inner-left a:nth-child(2) {
     margin-top: 20px;
 }
 
-.footer .footer-inner-left a:hover {
+.footer a:hover {
     color: #a3a1a5;
 }
 
