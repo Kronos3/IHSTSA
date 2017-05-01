@@ -541,3 +541,86 @@ section.--toc-section:nth-child(even) .arrow::after {
 section.--toc-section:last-child .arrow {
     display: none;
 }
+
+.watch-video {
+    position: relative;
+    width: 100%;
+    display: block;
+    background: #6e3edc;
+    transition: all 0.2s ease;
+    overflow:hidden;
+}
+
+.watch-video > .inner {
+    width: 92%;
+    margin: 0 auto;
+    max-width: 1100px;
+    position: relative;
+    padding: 120px 0;
+}
+
+.watch-video .info {
+    font-family: "brandon-grotesque",Arial,Sans-Serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+.watch-video .prompt {
+    margin-top: 20px;
+    font-size: 52px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.watch-video:hover {
+    cursor: pointer;
+    background: #7d3bea;
+}
+
+.watch-video .render-svgs.arrow {
+    right: 15%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.watch-video:hover > .render-svgs.arrow {
+    opacity: 1;
+    right: 14.5%;
+}
+
+.watch-video .render-svgs.satallite {
+    right: 15%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    transition: all 0.4s ease;
+}
+
+.watch-video:hover .render-svgs.satallite {
+    top: 34%;
+}
+
+.watch-video .render-svgs.radio {
+    top: 50%;
+    position: absolute;
+    transition: all 0.4s ease;
+    right: 30%;
+}
+
+.watch-video .render-svgs.radio svg {
+    transition: all 0.4s ease;
+}
+
+.watch-video:hover .render-svgs.radio {
+    top: 54%;
+}
+
+.watch-video:hover .render-svgs.radio svg {
+    width: 150px;
+    height: 150px;
+}
