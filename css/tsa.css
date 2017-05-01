@@ -557,6 +557,7 @@ section.--toc-section:last-child .arrow {
     max-width: 1100px;
     position: relative;
     padding: 120px 0;
+    z-index: 10;
 }
 
 .watch-video .info {
@@ -593,22 +594,21 @@ section.--toc-section:last-child .arrow {
 }
 
 .watch-video .render-svgs.satallite {
-    right: 15%;
+    right: 285px;
     position: absolute;
-    top: 30%;
-    transform: translateY(-50%);
+    top: -70px;
     transition: all 0.4s ease;
 }
 
 .watch-video:hover .render-svgs.satallite {
-    top: 34%;
+    top: -50px;
 }
 
 .watch-video .render-svgs.radio {
-    top: 50%;
+    top: 216px;
     position: absolute;
     transition: all 0.4s ease;
-    right: 30%;
+    right: 570px;
 }
 
 .watch-video .render-svgs.radio svg {
@@ -616,7 +616,7 @@ section.--toc-section:last-child .arrow {
 }
 
 .watch-video:hover .render-svgs.radio {
-    top: 54%;
+    top: 236px;
 }
 
 .watch-video:hover .render-svgs.radio svg {
