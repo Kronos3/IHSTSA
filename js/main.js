@@ -10,9 +10,7 @@ if (!String.prototype.format) {
   };
 }
 
-var star_list = ['circle', 'circle-s', 'circle-s-p', 'lines', 'square', 'square-s', 'square-s-p'];
-$(window).ready(function () {
-    
+function create_stars () {
     /* Create the stars */
     for (var i = 0; i != star_list.length; i++) {
         xhr = new XMLHttpRequest();
@@ -32,6 +30,10 @@ $(window).ready(function () {
         $($('.stars > svg').get(i)).css ("top", (Math.random() * (59 - 0) + 0).toFixed(0) + "%");
         $($('.stars > svg').get(i)).css ("left", (Math.random() * (100 - 0) + 0).toFixed(0) + "%");
     }
+}
+
+var star_list = ['circle', 'circle-s', 'circle-s-p', 'lines', 'square', 'square-s', 'square-s-p'];
+$(window).ready(function () {
     
     /* Catch mouse movement */
     //document.onmousemove = handleMouseMove;
@@ -96,8 +98,17 @@ function set_rot (e, x, y) { // Use negative for inverse
 
 $(window).scroll (function (e) {
     var st = $(this).scrollTop();
+    if (st != 0) {
+        $('#grassland #svg').css ('animation-name', 'none');
+    }
+    else {
+        $('#grassland #svg').css ('animation-name', 'bob');
+    }
     var p_rot = 0.02 * st;
     $('#planetsvg').css ('transform', 'translateX(-50%) rotateZ({0}deg)'.format(p_rot));
+    $('#grassland').css ('background-position', 'center bottom {0}px, bottom {3}px right 30px, bottom {1}px center, bottom {2}px center'.format(0 - (st * 0.2), 0 - (st * 0.4), 160 - (st * 0.5), 140 - (st * 0.45)));
+    $('#grassland #svg').css ('top', '{0}px'.format(70 + (st * 0.7),));
+    $('#grassland #svg').css ('left', '{0}px'.format(60 + (st * 0.3),));
     if (st == 0) {
         $('.nav').removeClass ('down');
     }
