@@ -861,3 +861,15 @@ section.--toc-section:last-child .arrow {
     background: #fff;
     color: #222326;
 }
+
+@media screen and (max-height: 900px) {
+.leadership-lander {
+    height: 120vh !important;
+}
+
+#grassland #svg {
+    top: 170px;
+}
+
+}
+
