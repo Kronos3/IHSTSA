@@ -36,7 +36,7 @@ var star_list = ['circle', 'circle-s', 'circle-s-p', 'lines', 'square', 'square-
 $(window).ready(function () {
     
     /* Catch mouse movement */
-    //document.onmousemove = handleMouseMove;
+    document.onmousemove = handleMouseMove;
     function handleMouseMove(event) {
         var dot, eventDoc, doc, body, pageX, pageY;
         event = event || window.event;
