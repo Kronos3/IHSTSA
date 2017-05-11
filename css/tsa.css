@@ -738,12 +738,13 @@ section.--toc-section:last-child .arrow {
 }
 
 .leadership-lander {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 130vh;
+    height: 90vh;
     background: #222326;
-    clip-path: polygon(100% 0, 100% 100%, 50% 78%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 100%, 60% 88%, 0 100%, 0 0);
     display: block;
+    z-index: 2;
 }
 
 .leadership-lander-inner {
@@ -757,7 +758,7 @@ section.--toc-section:last-child .arrow {
     width: 100vw;
     position: absolute;
     bottom: 0;
-    height: 100vh;
+    height: 90vh;
     background: url(../img/assets/grassland/fore.svg) bottom center, url(../img/assets/grassland/tree.svg) bottom 300px center, url(../img/assets/grassland/middle.svg) bottom 80px center, url(../img/assets/grassland/back.svg) bottom 300px center;
     background-position: center bottom 0px, bottom 140px right 30px, bottom 0px center, bottom 160px center;
     background-size: cover, 200px 350px, cover, cover;
@@ -767,7 +768,7 @@ section.--toc-section:last-child .arrow {
 #grassland #svg {
     position: absolute;
     left: 60px;
-    top: 70px;
+    top: 270px;
     animation-duration: 1s;
     animation-name: bob;
     animation-timing-function: ease-in-out;
@@ -778,6 +779,7 @@ section.--toc-section:last-child .arrow {
     background-size: cover;
     background-position: center center;
     object-fit: cover;
+    z-index: -1;
 }
 
 @keyframes bob {
@@ -790,4 +792,72 @@ section.--toc-section:last-child .arrow {
     100% {
         transform: translateY(0px);
     }
+}
+
+.white > * {
+    color: #fff !important;
+}
+
+.dark-leader-top {
+    position: absolute;
+    display: block;
+    max-width: 1010px;
+    width: 35vw;
+    text-align: center;
+    right: 10vw;
+    top: 50%;
+    text-align: left;
+    transform: translateY(-50%);
+}
+
+.dark-leader-top h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 62px;
+}
+
+.dark-leader-top p {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.dark-wrapper {
+    background: #222326;
+    display: block;
+    position: relative;
+    top: -11vh;
+    margin-bottom: 80px;
+    height: calc(100vh - 90px);
+}
+
+.read-more {
+    display: inline-block;
+    cursor: pointer;
+    border: 3px solid #222326;
+    background: none;
+    font-family: "brandon-grotesque",Arial,Sans-Serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    line-height: 100%;
+    color: #222326;
+    padding: 15px 21px;
+    margin: 35px 0 0 0;
+    transition: all 0.2s ease;
+}
+
+.read-more:hover {
+    background: #222326;
+    color: #fff;
+}
+
+.read-more.white {
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.read-more.white:hover {
+    background: #fff;
+    color: #222326;
 }
