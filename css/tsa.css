@@ -871,5 +871,10 @@ section.--toc-section:last-child .arrow {
     top: 170px;
 }
 
+.dark-wrapper {
+    top: -15vh;
+    
+}
+
 }
 
