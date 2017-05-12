@@ -93,7 +93,7 @@ a:focus {
     display: flex;
     height: 100%;
     left: 50%;
-    min-width: 40vw;
+    min-width: 35vw;
     transform: translateX(-50%);
 }
 
