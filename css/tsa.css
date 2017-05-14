@@ -874,3 +874,50 @@ section.--toc-section:last-child .arrow {
 }
 }
 
+.dark-wrapper img {
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease;
+}
+
+.dark-leader-top {
+    transition: all 1s ease;
+    
+}
+
+.dark-leader-top div {
+    width: calc(65vw - 180px);
+    position: absolute;
+    max-height: 100%;
+    column-count: 2;
+    column-width: calc(32.5 - 120px);
+    padding: 20px 80px 20px 20px;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.dark-wrapper.read img {
+    left: -25%;
+}
+
+.dark-wrapper.read > .dark-leader-top {
+    margin-left: 80px;
+}
+
+.dark-leader-top > div > p {
+    margin: 0 0 10px 0;
+}
+
+.dark-wrapper.read > .dark-leader-top div {
+    opacity: 1;
+}
+
+.dark-wrapper.read > .dark-leader-top > .read-more {
+    content: 'Read Less';
+}
