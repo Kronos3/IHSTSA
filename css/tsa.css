@@ -61,7 +61,7 @@ a:focus {
     justify-content: center;
 }
 
-.nav a {
+.nav .nav-inner a {
     display: block;
     height: 100%;
     font-size: 16px;
@@ -85,6 +85,26 @@ a:focus {
     position: relative;
 }
 
+.nav a.external {
+    position: absolute;
+    right: 10px;
+    color: #fff;
+    font-family: "brandon-grotesque",Arial,Sans-Serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    padding: 16px;
+    border: solid #fff 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+}
+
+.nav a.external:hover { 
+    background: #fff;
+    color: #222326;
+}
+
 .nav-inner {
     position: absolute;
     display: flex;
@@ -94,7 +114,7 @@ a:focus {
     transform: translateX(-50%);
 }
 
-.nav a::after {
+.nav  a::after {
     height: 0px;
     position: absolute;
     bottom: -1px;
@@ -106,8 +126,8 @@ a:focus {
     transition: all 0.2s ease;
 }
 
-.nav a:hover::after,
-.nav a.active::after {
+.nav .nav-inner a:hover::after,
+.nav .nav-inner a.active::after {
     height: 5px;
 }
 
@@ -212,7 +232,17 @@ a:focus {
     background: #fff;
 }
 
-.nav.down a {
+.nav.down a.external {
+    color: #606063;
+    border-color: #606063;
+}
+
+.nav.down a.external:hover {
+    color: #fff;
+    background: #606063;
+}
+
+.nav.down .nav-inner a {
     color: #606063;
     line-height: 90px;
 }
