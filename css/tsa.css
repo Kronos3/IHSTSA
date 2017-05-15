@@ -955,9 +955,10 @@ section.--toc-section:last-child .arrow {
 
 .officer img {
     height: calc(100% - 120px);
-    width: auto;
     position: absolute;
     top: 60px;
+    border-radius: 50%;
+    object-fit: cover;
     right: 25%;
     transform: translateX(50%);
 }
