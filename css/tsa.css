@@ -1014,7 +1014,6 @@ section.--toc-section:last-child .arrow {
     background-size: cover;
     background-position: center center;
     object-fit: cover;
-    z-index: -1;
 }
 
 .course-wrapper {
@@ -1062,4 +1061,61 @@ section.--toc-section:last-child .arrow {
     height: 120px;
     margin-top: 40px;
     object-fit: cover;
+}
+
+.submission-lander {
+    height: 120vh;
+    position: relative;
+}
+
+.bib-lander {
+    height: 45vh;
+    position: relative;
+    background: #222326;
+    margin-bottom: 50px;
+}
+
+#forest {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('../img/assets/forest/tree-left-cut.svg'),url('../img/assets/forest/trees-right-cut.svg'),url('../img/assets/forest/mountains.svg'),url('../img/assets/forest/stars.svg');
+    background-color: #114e79;
+    background-repeat: no-repeat;
+    background-size: 157px 556px,659px 791px,2000px 406px,100%;
+    background-position: left -2px bottom 0px, right -2px bottom -230px, center bottom 0px, center bottom 200px;
+}
+
+#forest #svg {
+    position: absolute;
+    left: 60px;
+    top: 470px;
+    animation-duration: 1s;
+    animation-name: bob;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    display: block;
+    width: 180px;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.video-game {
+    display:block;
+    background: #222326;
+    padding: 80px;
+    color: #fff;
+    min-height: 40vh;
+}
+
+.video-game p {
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bib img {
+    width: 50%;
 }
