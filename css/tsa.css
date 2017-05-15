@@ -977,3 +977,81 @@ section.--toc-section:last-child .arrow {
 .container h3 {
     font-size: 48px;
 }
+
+.courses-lander {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: #222326;
+    display: block;
+    z-index: 2;
+}
+
+#mountains {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    background: url(../img/assets/mountains/mountains-2.svg) bottom center, url(../img/assets/mountains/sun-balloon.svg) bottom 300px center;
+    background-position: left 50px bottom 0px, bottom 140px right -4px;
+    background-size: 40% auto, 200px 350px;
+    background-repeat: no-repeat;
+}
+
+#mountains #svg {
+    position: absolute;
+    left: 60px;
+    top: 270px;
+    animation-duration: 1s;
+    animation-name: bob;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    display: block;
+    width: 180px;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.course-wrapper {
+    padding-top: 80px;
+}
+
+.course-wrapper p {
+    font-size: 1.113rem;
+}
+
+.course-intro {
+    text-align: center;
+}
+
+.course-wrapper > div {
+    margin-top: 60px;
+    display: block;
+    position: relative;
+}
+
+.course-entry h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.course-entry {
+    position: relative;
+    display: inline-block;
+    max-width: 60%;
+    color: #222326;
+    left: 50%;
+    text-align: center;
+    padding: 80px;
+    transform: translateX(-50%);
+}
+
+.course-entry > img {
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+    object-fit: cover;
+}

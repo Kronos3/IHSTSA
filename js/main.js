@@ -107,6 +107,7 @@ $(window).scroll (function (e) {
     var p_rot = 0.02 * st;
     $('#planetsvg').css ('transform', 'translateX(-50%) rotateZ({0}deg)'.format(p_rot));
     $('#grassland').css ('background-position', 'center bottom {0}px, bottom {3}px right 30px, bottom {1}px center, bottom {2}px center'.format(0 - (st * 0.3), 0 - (st * 0.4), 160 - (st * 0.5), 140 - (st * 0.45)));
+    $('#mountains').css ('background-position', 'left 50px bottom {0}px, bottom {1}px right -4px'.format(0 - (st * 0.3), 0 + (st * 0.3)));
     if ($( window ).height() > 900) {
         $('#grassland #svg').css ('top', '{0}px'.format(270 + (st * 0.7)));
     }
@@ -114,6 +115,7 @@ $(window).scroll (function (e) {
         $('#grassland #svg').css ('top', '{0}px'.format(170 + (st * 0.7)));
     }
     $('#grassland #svg').css ('left', '{0}px'.format(60 + (st * 0.3)));
+    $('#mountains #svg').css ('left', '{0}px'.format(60 + (st * 0.3)));
     if (st == 0) {
         $('.nav').removeClass ('down');
     }
