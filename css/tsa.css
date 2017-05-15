@@ -1074,6 +1074,9 @@ section.--toc-section:last-child .arrow {
     background: #222326;
     margin-bottom: 50px;
 }
+.bib img {
+    width: 50%;
+}
 
 #forest {
     width: 100%;
@@ -1102,20 +1105,86 @@ section.--toc-section:last-child .arrow {
     object-fit: cover;
 }
 
-.video-game {
+.sub {
     display:block;
     background: #222326;
     padding: 80px;
     color: #fff;
+    position: relative;
     min-height: 40vh;
 }
 
-.video-game p {
-    width: 40%;
+.sub h3 {
+    font-size: 42px;
     top: 50%;
     transform: translateY(-50%);
+    position: absolute;
+    max-width: 25vw;
+    z-index: 2;
 }
 
-.bib img {
-    width: 50%;
+.sub p {
+    width: 40%;
+    min-width: 450px;
+    font-size: 1.5rem;
+    display: block;
+    left: 50%;
+    z-index: 2;
+    position: relative;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(-30deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotateZ(-130deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateZ(-30deg);
+    }
+}
+
+.sub.rocket img {
+    position: absolute;
+    width: 200px;
+    top: 40%;
+    left: 40%;
+    animation: rotate 6s infinite;
+    transform: translate(-50%, -50%) rotateZ(-30deg);
+}
+
+.scivis {
+    background: url('../img/1-kepler186f.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.scivis::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+}
+
+.ch {
+    background: url('../img/children_stories.png');
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.ch::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
 }
