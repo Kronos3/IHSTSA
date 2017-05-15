@@ -1027,6 +1027,11 @@ section.--toc-section:last-child .arrow {
 
 .course-intro {
     text-align: center;
+    width: 80%;
+    max-width: 900px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
 }
 
 .course-wrapper > div {
