@@ -1219,3 +1219,62 @@ section.--toc-section:last-child .arrow {
     display: block;
     height: 100%;
 }
+
+.fundraising-container {
+    width: 85%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 90px;
+}
+
+.fundraising-lander {
+    background-image: url(../img/assets/shapes-9.svg),url(../img/assets/shapes-10.svg);
+    background-size: 386px 177px, 282px 207px;
+    background-position: right 130px top -50px, right bottom -50px;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    background-color: #6e3edc;
+    position: relative;
+}
+
+.fundraising-lander h3 {
+    color: #fff !important;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.fundraising-container p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #606063;
+    margin-bottom: 20px;
+}
+
+.fundraising-container h3 {
+    color: #222326;
+    font-size: 42px;
+    text-align: center;
+}
+
+.inner-wrapper-fund {
+    padding: 60px 0;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.video {
+    position: relative;
+    height: 370px;
+    max-width: 660px;
+    margin: 35px auto;
+}
+
+#drive-viewer-video-player-object-0 {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
