@@ -60,19 +60,32 @@ $(window).ready(function () {
     
     /* Render other SVGs */
     var __e = $('.render-svgs');
-    for (var i = 0; i != __e.length; i++) {
-        var current_parent = __e.get (i);
-        var _data = $(current_parent).data ('svgs').split(",");
-        for (var j = 0; j != _data.length; j++) {
+    function render_svg_class (index) {
+        if (index >= __e.length)
+            return;
+        
+        let ar = $(__e[index]).data ('svgs').split(",");
+        
+        function render_svg (i) {
+            if (i >= ar.length)
+                return render_svg_class (++index);
+            
             xhr = new XMLHttpRequest();
-            xhr.open("GET","img/assets/{0}.svg".format (_data[j]), false);
+            xhr.open("GET","/img/assets/{0}.svg".format (ar[i]), false);
             xhr.overrideMimeType("image/svg+xml");
-            xhr.send("");
-            var d = xhr.responseXML.documentElement;
-            current_parent.appendChild(d);
+            
+            xhr.onload = function () {
+                __e[index].appendChild(xhr.responseXML.documentElement);
+                render_svg (++i);
+            };
+            
+            xhr.send ();
         }
+        
+        render_svg (0);
     }
-
+    
+    render_svg_class (0);
 });
 
 function set_pos_svg (e, x, y) { // Use negative for inverse
