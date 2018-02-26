@@ -2,85 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2bee445-d554-452a-94f5-5934a806ee51" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/img/1-kepler186f.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/SAT.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/apcomp.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-right-black.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-right-color.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/arrow-right.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/arrow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/arrow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/events.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/mountains.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/stars.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/tree-left-cut.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/trees-right-cut.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/back.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/fore.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/middle.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/plane.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/plane.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/plane_backup.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/tree.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/leadership.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/mars.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/moon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/mountains/mountains-2.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/mountains/sun-balloon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/piggy-bank.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/planet-zoom.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/planet.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/quote.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/radio.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/satallite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/shapes-10.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/shapes-9.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/space-3.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/circle-s-p.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/circle-s.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/circle.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/lines.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/square-s-p.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/square-s.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/square.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/sun.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/tech.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/tree.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/tree_backup.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/tsa_logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/assets/tsa_logo_white.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bio.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/breigle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/calc.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/catapult.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/chem.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/children_stories.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/consent.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/disk-de.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/drawing-ddp.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/engine-poe.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/header.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/kiechle.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/leap.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/machine-cim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/phys.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/pres.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/reporter.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/rocket.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/secretary.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/stem.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/tform.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/treasurer.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/triangle.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/tsa_logo_edit.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/tsa_logo_main.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/tsa_logo_white.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/vgd-back.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/vice.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/webmaster-checklist.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/welding-edd.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/wires-de.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/tsa.css" afterPath="$PROJECT_DIR$/css/tsa.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -104,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsa.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tsa.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tsa.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,8 +40,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -133,8 +56,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/tsa.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/tsa.css" />
       </list>
     </option>
   </component>
@@ -144,7 +67,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1920" />
     <option name="y" value="-10" />
     <option name="width" value="1440" />
@@ -222,15 +145,15 @@
       <option name="presentableId" value="Default" />
       <updated>1519488219930</updated>
       <workItem from="1519488221035" duration="152000" />
-      <workItem from="1519490304347" duration="2643000" />
+      <workItem from="1519490304347" duration="7137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2795000" />
+    <option name="totallyTimeSpent" value="7289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="27" width="1920" height="974" extended-state="6" />
+    <frame x="1920" y="27" width="1920" height="974" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -287,29 +210,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tsa.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/animatescroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1512">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -317,6 +232,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tsa.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
