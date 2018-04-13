@@ -1,0 +1,25 @@
+@media (min-aspect-ratio: 16/9) {
+
+}
+@media (max-aspect-ratio: 16/9) {
+	
+	.header p {
+		font-size: 1.1vh;
+	}
+	
+	.courses-lander {
+		height: 35vh;
+	}
+	
+	.submission-lander {
+		height: 35vh;
+	}
+	
+	.header h3 {
+		font-size: 10.2vw;
+	}
+	
+	.course-entry:nth-child(even) {
+		background: #555658;
+	}
+}

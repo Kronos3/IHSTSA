@@ -1,0 +1,131 @@
+.course-list {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.course-entry:before {
+	top: 0;
+	transition: width ease-out 150ms;
+	left: 0;
+}
+
+.course-entry:after {
+	bottom: 0;
+	transition: width ease-out 150ms;
+	left: 0;
+}
+
+.course-entry:before,
+.course-entry:after,
+.course-entry > span {
+	content: '';
+	height: 5px;
+	width: 0px;
+	
+	position: absolute;
+	display: block;
+	background: #fff;
+}
+
+.course-entry > span.left {
+	left: 0;
+	width: 5px;
+	height: 0px;
+	top: 0;
+	transition: height ease-out 150ms;
+	transition-delay: 150ms;
+}
+
+.course-entry > span.right > svg > text {
+	font-weight: bold;
+	font-size: 18px;
+	fill: rgba(34, 35, 38, 0);
+	fill-opacity: 1;
+	stroke-width: 0.1480702;
+	font-family: "acumin-pro", Arial, Sans-Serif;
+	transition: all ease-out 150ms;
+}
+
+.course-entry > span.right > svg {
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+}
+
+.course-entry > span.right {
+	width: 0px;
+	height: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all ease-out 150ms;
+	right: 0;
+	white-space: nowrap;
+}
+
+.course-entry:hover:after {
+	transition-delay: 150ms;
+}
+
+.course-entry:hover:after,
+.course-entry:hover:before {
+	width: 100%;
+}
+
+.course-entry:hover > span.left {
+	height: 100%;
+	transition-delay: 0ms;
+}
+
+.course-entry:hover > span.right {
+	width: 12%;
+}
+
+.course-entry:hover > span.right > svg > text {
+	fill: rgba(34, 35, 38, 1);
+}
+
+.course-entry h1 {
+	font-size: 2.95vw;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.course-entry {
+	position: relative;
+	display: inline-flex;
+	background: #3f4043;
+	color: #fff;
+	text-align: center;
+	cursor:pointer;
+}
+
+.course-entry > div {
+	width: 100%;
+	padding: 3.86vw 7.02vw 3.86vw 7.02vw;
+}
+
+.course-entry > div > p {
+	max-width: 350px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.course-entry {
+		width: calc(50% - 4px);
+	}
+}
+@media (max-aspect-ratio: 16/9) {
+	.course-entry {
+		width: 100vw;
+	}
+	.course-entry > div > p {
+		max-width: initial;
+	}
+	
+	.course-entry h1 {
+		font-size: 2.95vh;
+		width: 75%;
+	}
+}
