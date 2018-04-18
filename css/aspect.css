@@ -2,13 +2,12 @@
 
 }
 @media (max-aspect-ratio: 16/9) {
-	
 	.header p {
 		font-size: 1.1vh;
 	}
 	
 	.intro p {
-		font-size: 1.5vh;
+		font-size: 3vh;
 	}
 	
 	.courses-lander {
@@ -41,7 +40,7 @@
 	}
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
 	.footer-inner-left {
 		font-size: 1.52vw !important;
 		display: block !important;
