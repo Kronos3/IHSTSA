@@ -124,6 +124,13 @@
 		max-width: initial;
 	}
 	
+	.course-entry::before,
+	.course-entry::after,
+	.course-entry > .left,
+	.course-entry > .right {
+		transition: none !important;
+	}
+	
 	.course-entry h1 {
 		font-size: 2.95vh;
 		width: 75%;

@@ -7,8 +7,16 @@
 		font-size: 1.1vh;
 	}
 	
+	.intro p {
+		font-size: 1.5vh;
+	}
+	
 	.courses-lander {
 		height: 35vh;
+	}
+	
+	.header {
+		margin-top: 10vh;
 	}
 	
 	.submission-lander {
@@ -16,10 +24,73 @@
 	}
 	
 	.header h3 {
-		font-size: 10.2vw;
+		font-size: 8.2vw;
+	}
+	
+	.intro h3 {
+		margin: 2em 0 0 0;
 	}
 	
 	.course-entry:nth-child(even) {
 		background: #555658;
+	}
+	
+	.intro {
+		margin-top: 5vh;
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.footer-inner-left {
+		font-size: 1.52vw !important;
+		display: block !important;
+		width: 40% !important;
+	}
+	
+	.footer h3 {
+		font-size: 2.83vw;
+		line-height: 1.4em;
+		margin-top: 1em !important;
+	}
+	
+	.header {
+		top: 30%;
+	}
+	
+	.lander,
+	.lander-back,
+	.lander-inner {
+		height: 60vh;
+	}
+	
+	#planetsvg {
+		width: 50vh;
+		height: 50vh;
+	}
+	
+	#moonsvg {
+		width: 15vh;
+		height: 15vh;
+	}
+	
+	#sunsvg {
+		width: 30vh;
+		height: 30vh;
+	}
+	
+	.lander-inner,
+	.lander-back {
+		clip-path: initial;
+	}
+	
+	.num-1 {
+		top: 52vh;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.num-1 {
+		display: none;
 	}
 }

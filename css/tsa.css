@@ -52,10 +52,11 @@ a:focus {
 .nav {
 	display: block;
 	position: fixed;
+	font-size: 1.6vw;
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 110px;
+	height: 4em;
 	transition: all ease 0.3s;
 	/*background: rgba(34, 35, 38, 0.8);*/
 	z-index: 10;
@@ -66,19 +67,17 @@ a:focus {
 .nav .nav-inner a {
 	display: block;
 	height: 100%;
-	font-size: 1.6vw;
 	font-weight: bold;
 	color: #fff;
 	transition: all ease 0.3s;
-	min-width: 60px;
 	text-decoration: none;
 	text-align: center;
 	position: relative;
-	padding: 0 20px;
+	padding: 0 1em;
 	margin: 0;
 	list-style: none;
 	text-transform: uppercase;
-	line-height: 110px;
+	line-height: 4em;
 	letter-spacing: 1px;
 }
 
@@ -112,7 +111,7 @@ a:focus {
 }
 
 .nav a::after {
-	height: 0px;
+	height: 0vw;
 	position: absolute;
 	bottom: -1px;
 	width: 100%;
@@ -125,7 +124,7 @@ a:focus {
 
 .nav .nav-inner a:hover::after,
 .nav .nav-inner a.active::after {
-	height: 5px;
+	height: .35vw;
 }
 
 .nav.down a::after {
@@ -176,7 +175,7 @@ a:focus {
 }
 
 .header p {
-	margin: 0 0 30px 0;
+	margin-top: 4.43vh;
 	font-size: 1.1vw;
 	font-weight: 700;
 	line-height: 1em;
@@ -225,7 +224,7 @@ a:focus {
 }
 
 .nav.down {
-	height: 90px;
+	height: 3.5em;
 	background: #fff;
 }
 
@@ -241,7 +240,7 @@ a:focus {
 
 .nav.down .nav-inner a {
 	color: #606063;
-	line-height: 90px;
+	line-height: 3.5em;
 }
 
 .num-1 {
@@ -254,10 +253,11 @@ a:focus {
 	left: 26vw;
 	top: 100vh;
 	transform: translateX(-50%);
+	z-index: 5;
 }
 
 .num-1 span {
-	font-size: 10.4vh;
+	font-size: 6.4vw;
 	width: 20.4vw;
 	text-align: center;
 	display: inline-block;
@@ -320,12 +320,12 @@ a:focus {
 .intro h3 {
 	color: #222326;
 	font-weight: bold;
-	font-size: 62px;
+	font-size: 6.15vw;
 	margin: 0;
 }
 
 .intro p {
-	font-size: 22px;
+	font-size: 1.55vw;
 	color: #606063;
 	margin-top: 24px;
 }
@@ -388,35 +388,6 @@ a:focus {
 	
 	#logo {
 		display: none;
-	}
-	
-}
-
-@media screen and (max-width: 1400px) {
-	.intro {
-		margin: 200px auto 0 auto;
-	}
-}
-
-@media screen and (max-width: 680px) {
-	.num-1 {
-		left: 50%;
-		width: 250px;
-		height: 250px;
-	}
-	
-	.num-1 span {
-		width: 250px;
-	}
-	
-	.num-1 p {
-		font-size: 14px;
-		width: 200px;
-		margin-top: -10px;
-	}
-	
-	.intro h3 {
-		font-size: 32px;
 	}
 	
 }
@@ -653,8 +624,8 @@ section.--toc-section:last-child .arrow {
 }
 
 .footer h3 {
-	font-size: 26px;
-	line-height: 140%;
+	font-size: 1.83vw;
+	line-height: 1.4em;
 }
 
 .footer .footer-inner-wrapper {
@@ -671,10 +642,13 @@ section.--toc-section:last-child .arrow {
 	padding-top: 60px;
 	flex-wrap: wrap;
 	display: flex;
+	
+	font-size: 1.12vw;
+	letter-spacing: 0.15em;
 }
 
 .footer .footer-inner-left div {
-	width: 48.5%;
+	min-width: 40em;
 }
 
 .footer .footer-inner-left div:last-child {
@@ -686,8 +660,7 @@ section.--toc-section:last-child .arrow {
 	color: #fff;
 	font-family: "brandon-grotesque", Arial, Sans-Serif;
 	text-transform: uppercase;
-	letter-spacing: 1.25px;
-	line-height: 160%;
+	line-height: 1.6em;
 	transition: all ease 0.2s;
 }
 
@@ -696,7 +669,7 @@ section.--toc-section:last-child .arrow {
 }
 
 .footer .footer-inner-left a:nth-child(2) {
-	margin-top: 20px;
+	margin-top: .5em;
 }
 
 .footer a:hover {
@@ -754,6 +727,7 @@ section.--toc-section:last-child .arrow {
 	margin: 40px 0 0 0 !important;
 	width: 100%;
 	font-size: 12px;
+	letter-spacing: initial;
 	color: #b3b3b3;
 }
 
