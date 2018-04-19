@@ -1,7 +1,7 @@
 @media (min-aspect-ratio: 16/9) {
 
 }
-@media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 14/9) {
 	.header p {
 		font-size: 1.1vh;
 	}
@@ -16,6 +16,11 @@
 	
 	.header {
 		margin-top: 10vh;
+		top: 30%;
+	}
+	
+	.lander-inner .header {
+		top: 25vh !important;
 	}
 	
 	.submission-lander {
@@ -53,10 +58,6 @@
 		margin-top: 1em !important;
 	}
 	
-	.header {
-		top: 30%;
-	}
-	
 	.lander,
 	.lander-back,
 	.lander-inner {
@@ -85,6 +86,42 @@
 	
 	.num-1 {
 		top: 52vh;
+	}
+	
+	section.--toc-section .svg-wrapper {
+		width: 90%;
+		max-width: 350px;
+		left: 50%;
+		transform: translate(-50%, -25%);
+		position: absolute;
+		margin: 0 !important;
+		opacity: 0.5;
+	}
+	
+	section.--toc-section .content-wrapper {
+		width: 100%;
+	}
+	
+	section.--toc-section .content-wrapper a {
+		margin-top: 6em !important;
+	}
+	
+	.section-flex {
+		display: block !important;
+		margin: 0 auto;
+		max-width: 850px;
+		width: 90%;
+		text-align: center;
+	}
+	
+	.svg-wrapper svg {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.intro h3,
+	section.--toc-section > .inner > .section-header {
+		font-size: 6.15vw;
 	}
 }
 

@@ -320,7 +320,7 @@ a:focus {
 .intro h3 {
 	color: #222326;
 	font-weight: bold;
-	font-size: 6.15vw;
+	font-size: 62px;
 	margin: 0;
 }
 
@@ -414,7 +414,7 @@ section.--toc-section > .inner > .section-header {
 }
 
 section.--toc-section .section-main {
-	padding-bottom: 80px;
+	padding-bottom: 6em;
 	max-width: 1100px;
 	width: 92%;
 	margin: 0 auto;
@@ -451,7 +451,7 @@ section.--toc-section .content-wrapper {
 
 section.--toc-section .content-wrapper > p {
 	line-height: 160%;
-	font-size: 20px;
+	font-size: 2.8vh;
 }
 
 section.--toc-section .content-wrapper > a {
@@ -518,7 +518,6 @@ section.--toc-section:nth-child(even) .arrow::before {
 	content: '';
 	background-color: #f0eff3;
 }
-
 section.--toc-section:nth-child(even) .arrow::after {
 	right: -63px;
 	transform: skew(-55deg);

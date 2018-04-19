@@ -111,12 +111,12 @@
 	max-width: 350px;
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 14/9) {
 	.course-entry {
 		width: calc(50% - 4px);
 	}
 }
-@media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 14/9) {
 	.course-entry {
 		width: 100vw;
 	}
