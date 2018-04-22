@@ -95,7 +95,7 @@
 
 .course-entry {
 	position: relative;
-	display: inline-flex;
+	display: inline-block;
 	background: #3f4043;
 	color: #fff;
 	text-align: center;
@@ -103,8 +103,8 @@
 }
 
 .course-entry > div {
-	width: 100%;
 	padding: 3.86vw 7.02vw 3.86vw 7.02vw;
+	position: relative;
 }
 
 .course-entry > div > p {
