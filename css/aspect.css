@@ -123,6 +123,10 @@
 	section.--toc-section > .inner > .section-header {
 		font-size: 6.15vw;
 	}
+	
+	.officer {
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 680px) {

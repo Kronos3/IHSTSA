@@ -740,6 +740,13 @@ section.--toc-section:last-child .arrow {
 	z-index: 2;
 }
 
+.leadership-lander img {
+	width: 100vw;
+	height: auto;
+	bottom: 0;
+	position: absolute;
+}
+
 .leadership-lander-inner {
 	position: absolute;
 	display: block;
@@ -859,16 +866,6 @@ section.--toc-section:last-child .arrow {
 .read-more.white:hover {
 	background: #fff;
 	color: #222326;
-}
-
-@media screen and (max-height: 900px) {
-	.leadership-lander {
-		height: 120vh !important;
-	}
-	
-	#grassland #svg {
-		top: 170px;
-	}
 }
 
 .dark-wrapper img {
