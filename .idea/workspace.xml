@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c9f4429-394a-4916-8892-7894690fa40b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/tsa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tsa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submission.html" beforeDir="false" afterPath="$PROJECT_DIR$/submission.html" afterDir="false" />
-    </list>
+    <list default="true" id="5c9f4429-394a-4916-8892-7894690fa40b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="tsa.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tsa.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="1025" column="13" selection-start-line="1025" selection-start-column="13" selection-end-line="1025" selection-end-column="13" />
+            <state relative-caret-position="986">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -127,7 +124,7 @@
       <find>font-size</find>
       <find>course-list</find>
       <find>nth</find>
-      <find />
+      <find>.course-entry(:[A-Za-z]+)? &gt;</find>
       <find>52</find>
       <find>.svg-wrapper</find>
       <find>100%</find>
@@ -148,7 +145,7 @@
       <find>.sub-</find>
     </findStrings>
     <replaceStrings>
-      <replace />
+      <replace>.course-entry$1 &gt; div &gt;</replace>
       <replace>&lt;p&gt;$1&lt;/p&gt;</replace>
       <replace>&lt;/p&gt;\n&lt;p&gt;</replace>
     </replaceStrings>
@@ -198,7 +195,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="166" />
     <option name="y" value="35" />
     <option name="width" value="2575" />
@@ -287,12 +284,12 @@
       <workItem from="1524397696576" duration="1742000" />
       <workItem from="1524575901746" duration="229000" />
       <workItem from="1524707775092" duration="4743000" />
-      <workItem from="1524772631528" duration="22775000" />
+      <workItem from="1524772631528" duration="22964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69549000" />
+    <option name="totallyTimeSpent" value="69738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="2880" height="1636" extended-state="6" />
@@ -695,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tsa.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="1025" column="13" selection-start-line="1025" selection-start-column="13" selection-end-line="1025" selection-end-column="13" />
+        <state relative-caret-position="986">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -4,8 +4,8 @@
 	transition: height ease-in-out 1s;
 	position: fixed;
 	bottom: 0;
-	z-index: 99;
-	height: calc(100vh - 5.6vw);
+	z-index: 2;
+	height: 100%;
 	overflow: auto;
 }
 

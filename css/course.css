@@ -5,6 +5,10 @@
 	background: #3f4043;
 }
 
+.nav {
+	overflow: hidden;
+}
+
 .course-entry:before {
 	top: 0;
 	transition: width ease-out 150ms;
@@ -135,6 +139,5 @@
 	
 	.course-entry h1 {
 		font-size: 2.95vh;
-		width: 75%;
 	}
 }

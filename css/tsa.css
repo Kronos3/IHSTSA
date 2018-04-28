@@ -55,7 +55,7 @@ a:focus {
 	font-size: 1.6vw;
 	left: 0;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 	height: 4em;
 	transition: all ease 0.3s;
 	z-index: 10;
@@ -68,7 +68,7 @@ a:focus {
 }
 
 .nav .nav-inner a {
-	display: block;
+	display: inline-flex;
 	height: 100%;
 	font-weight: bold;
 	color: #fff;
@@ -105,11 +105,10 @@ a:focus {
 }
 
 .nav-inner {
-	position: absolute;
-	display: flex;
+	position: relative;
+	display: inline-flex;
 	height: 100%;
 	left: 50%;
-	min-width: 35vw;
 	transform: translateX(-50%);
 }
 
@@ -227,7 +226,6 @@ a:focus {
 }
 
 .nav.down {
-	height: 3.5em;
 	background: #fff;
 }
 
@@ -283,7 +281,9 @@ a:focus {
 }
 
 #logo {
-	margin: 35px 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
 	width: auto;
 	display: inline-block;
 	position: absolute;
@@ -306,10 +306,6 @@ a:focus {
 .nav.down > #logo #id8 > path,
 .nav.down > #logo #id6 > path {
 	fill: #222326 !important;
-}
-
-.nav.down > #logo {
-	margin: 25px 40px;
 }
 
 .intro {
@@ -543,6 +539,15 @@ section.--toc-section:last-child .arrow {
 	background: #6e3edc;
 	transition: all 0.2s ease;
 	overflow: hidden;
+}
+
+.watch-video > img {
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%) rotate(35deg);
+	height: 80%;
+	width: auto;
 }
 
 .watch-video > .inner {
@@ -1089,7 +1094,7 @@ section.--toc-section:last-child .arrow {
 }
 
 .inner-wrapper-fund {
-	padding: 60px 0;
+	padding: 60px 20px;
 	max-width: 720px;
 	margin: 0 auto;
 }
