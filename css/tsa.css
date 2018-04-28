@@ -1112,7 +1112,7 @@ section.--toc-section:last-child .arrow {
 
 .fundraising-container p {
 	font-weight: 400;
-	font-size: 1.2rem;
+	font-size: 1.2em;
 	color: #606063;
 	margin-bottom: 20px;
 }
@@ -1121,15 +1121,16 @@ section.--toc-section:last-child .arrow {
 	color: #222326;
 	font-size: 42px;
 	text-align: center;
+	max-width: 50%;
 }
 
 .fundraising-lander img {
 	height: 80%;
 	position: absolute;
 	width: auto;
-	right: 0;
+	left: 80%;
 	top: 50%;
-	transform: translate(-25%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .inner-wrapper-fund {

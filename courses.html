@@ -5,17 +5,26 @@
 	<meta charset="utf-8"/>
 	<title>Ithaca High School TSA</title>
 	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/mustache.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/templates.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/tsa.css">
 	<link rel="stylesheet" type="text/css" href="css/course.css">
 	<link rel="stylesheet" type="text/css" href="css/aspect.css">
+	<link rel="stylesheet" type="text/css" href="css/template.css">
 	
 	<style>
 		#mountains {
-			height: 100%;
-			width: auto;
+			width: 100%;
+			height: auto;
+			bottom: 0;
+			position: absolute;
 		}
 	</style>
+	
+	<script>
+		let tmp = new Template("js/template.ms", "#template-inner");
+	</script>
 </head>
 <body>
 
@@ -42,10 +51,65 @@
 	Ithaca High School maintains a top-notch STEM curriculum that allows alumni to study STEM subjects at top-tier
 	colleges like UC Berkeley, Cornell University, Carnegie Mellon University, and the University of Illinois at
 	Urbana–Champaign, among others.</p-->
-
 <ul class="course-list">
-	
-	<li class="course-entry">
+	<li class="course-entry"><a onclick="tmp.renderFile('js/templates/chem.txt')">
+		<span class="left"></span>
+		<span class="right ">
+			<svg style="position: relative; width: 30px; height: 115px;">
+				<text transform="matrix(0,1,-1,0,6,12)" xml:space="preserve" x="0" y="0">
+					<tspan style="stroke-width:0.1480702" x="0">Read More</tspan>
+				</text>
+			</svg>
+		</span>
+		<div>
+			<h1>AP Chemistry</h1>
+			<p>AP Chemistry is a continuation of the 10th-grade Honors
+				Chemistry course at Ithaca High School. Logically, AP Chemistry
+				extends on the basic principles of chemistry, including stoichiometry,
+				phases of matter, thermodynamics, kinetics and equilibrium, solutions,
+				and acids and bases. The AP level is more specific and rigorous,
+				requiring more precise calculations, theory,
+				and comprehensive lab work.</p>
+		</div>
+	</a>
+	</li>
+	<li class="course-entry"><a onclick="tmp.renderFile('js/templates/cim.txt')">
+		<span class="left"></span>
+		<span class="right ">
+			<svg style="position: relative; width: 30px; height: 115px;">
+				<text transform="matrix(0,1,-1,0,6,12)" xml:space="preserve" x="0" y="0">
+					<tspan style="stroke-width:0.1480702" x="0">Read More</tspan>
+				</text>
+			</svg>
+		</span>
+		<div>
+			<h1>Computer Integrated Manufacturing (CIM)</h1>
+			<p>At Ithaca High School, students are fortunate to be offered
+				a series of courses in the Project Lead the Way engineering sequence,
+				one of which is Computer Integrated Manufacturing (CIM). In CIM,
+				students explore various manufacturing processes and design techniques.</p>
+		</div>
+	</a>
+	</li>
+	<li class="course-entry"><a onclick="tmp.renderFile('js/templates/poe.txt')">
+		<span class="left"></span>
+		<span class="right ">
+			<svg style="position: relative; width: 30px; height: 115px;">
+				<text transform="matrix(0,1,-1,0,6,12)" xml:space="preserve" x="0" y="0">
+					<tspan style="stroke-width:0.1480702" x="0">Read More</tspan>
+				</text>
+			</svg>
+		</span>
+		<div>
+			<h1>Principles of Engineering (POE)</h1>
+			<p>The third course in the Project Lead the Way sequence is
+				Principles of Engineering (POE). Students discover the common
+				duties and idiosyncrasies in the field of engineering, and build
+				on previous mathematical and design concepts.</p>
+		</div>
+	</a>
+	</li>
+	<li class="course-entry"><a onclick="tmp.renderFile('js/templates/phys.txt')">
 		<span class="left"></span>
 		<span class="right">
 			<svg style="position: relative; width: 30px; height: 115px;">
@@ -55,69 +119,20 @@
 			</svg>
 		</span>
 		<div>
-		<h1>AP Physics C</h1>
-		<p>AP Physics C is the capstone Advanced Placement STEM-related 
-		course at Ithaca High School. Throughout the year, students 
-		learn how to apply calculus principles to problems in mechanics 
-		and electricity and magnetism.</p>
+			<h1>AP Physics C</h1>
+			<p>AP Physics C is the capstone Advanced Placement STEM-related
+				course at Ithaca High School. Throughout the year, students
+				learn how to apply calculus principles to problems in mechanics
+				and electricity and magnetism.</p>
 		</div>
-	</li>
-	<li class="course-entry">
-		<span class="left"></span>
-		<span class="right ">
-			<svg style="position: relative; width: 30px; height: 115px;">
-				<text transform="matrix(0,1,-1,0,6,12)" xml:space="preserve" x="0" y="0">
-					<tspan style="stroke-width:0.1480702" x="0">Read More</tspan>
-				</text>
-			</svg>
-		</span>
-		<div>
-		<h1>Computer Integrated Manufacturing (CIM)</h1>
-		<p>At Ithaca High School, students are fortunate to be offered 
-		a series of courses in the Project Lead the Way engineering sequence, 
-		one of which is Computer Integrated Manufacturing (CIM). In Computer 
-		Integrated Manufacturing, students explore various manufacturing 
-		processes and design techniques.</p>
-		</div>
-	</li>
-	<li class="course-entry">
-		<span class="left"></span>
-		<span class="right ">
-			<svg style="position: relative; width: 30px; height: 115px;">
-				<text transform="matrix(0,1,-1,0,6,12)" xml:space="preserve" x="0" y="0">
-					<tspan style="stroke-width:0.1480702" x="0">Read More</tspan>
-				</text>
-			</svg>
-		</span>
-		<div>
-		<h1>Principles of Engineering (POE)</h1>
-		<p>The third course in the Project Lead the Way sequence is 
-		Principles of Engineering (POE). Students discover the common 
-		duties and idiosyncrasies in the field of engineering, and build
-		on previous mathematical and design concepts.</p>
-		</div>
-	</li>
-	<li class="course-entry">
-		<span class="left"></span>
-		<span class="right ">
-			<svg style="position: relative; width: 30px; height: 115px;">
-				<text transform="matrix(0,1,-1,0,6,12)" xml:space="preserve" x="0" y="0">
-					<tspan style="stroke-width:0.1480702" x="0">Read More</tspan>
-				</text>
-			</svg>
-		</span>
-		<div>
-		<h1>AP Chemistry</h1>
-		<p>AP Chemistry is a continuation of the 10th-grade Honors 
-		Chemistry course at Ithaca High School. Logically, AP Chemistry 
-		extends on the basic principles of chemistry, including stoichiometry,
-		phases of matter, thermodynamics, kinetics and equilibrium, solutions, 
-		and acids and bases. The AP level is more specific and rigorous, 
-		requiring more precise calculations, theory, 
-		and comprehensive lab work.</p>
-		</div>
+	</a>
 	</li>
 </ul>
+<div id="template-wrapper">
+	<div id="template-inner">
+	
+	</div>
+</div>
 <div class="footer">
 	<div class="footer-inner-wrapper">
 		<div class="footer-inner-left">

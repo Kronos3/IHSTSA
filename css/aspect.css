@@ -43,6 +43,14 @@
 		margin-top: 5vh;
 		width: 80vw;
 	}
+	
+	.nav.down .nav-inner a {
+		height: 6.5em;
+	}
+	
+	.nav.down {
+		height: 6.5em;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -126,7 +134,12 @@
 	
 	.officer {
 		max-width: 100%;
-	}2
+	}
+	
+	.fundraising-container {
+		margin-top: 0;
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 680px) {

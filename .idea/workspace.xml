@@ -2,40 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c9f4429-394a-4916-8892-7894690fa40b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/template.ms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/templates/phys.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mustache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IHSTSA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IHSTSA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bib.html" beforeDir="false" afterPath="$PROJECT_DIR$/bib.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/aspect.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aspect.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/course.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/course.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/tsa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tsa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundraising.html" beforeDir="false" afterPath="$PROJECT_DIR$/fundraising.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/mountains.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/stars.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/tree-left-cut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/forest/trees-right-cut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/back.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/fore.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/middle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/plane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/plane.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/plane_backup.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/grassland/tree.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/mountain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/mountains/mountains-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/mountains/sun-balloon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/circle-s-p.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/circle-s.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/circle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/lines.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/square-s-p.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/square-s.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/stars/square.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leap.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/leap.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leadership.html" beforeDir="false" afterPath="$PROJECT_DIR$/leadership.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submission.html" beforeDir="false" afterPath="$PROJECT_DIR$/submission.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/template.ms" beforeDir="false" afterPath="$PROJECT_DIR$/js/template.ms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templates/chem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates/chem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templates/cim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates/cim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templates/phys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates/phys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templates/poe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates/poe.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,83 +33,44 @@
       <file leaf-file-name="tsa.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/tsa.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14453">
-              <caret line="758" column="1" selection-start-line="758" selection-start-column="1" selection-end-line="758" selection-end-column="1" />
+            <state relative-caret-position="547">
+              <caret line="1123" column="17" selection-start-line="1123" selection-start-column="17" selection-end-line="1123" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fundraising.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fundraising.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.ms" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/template.ms">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templates.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="templates.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/templates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="282">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phys.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/templates/phys.txt">
+      <file leaf-file-name="aspect.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/aspect.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="1564">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chem.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/templates/chem.txt">
+      <file leaf-file-name="template.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/template.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="442">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cim.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/templates/cim.txt">
+      <file leaf-file-name="course.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/course.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poe.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/templates/poe.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="544">
+              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -136,12 +78,8 @@
       <file leaf-file-name="courses.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="1156">
+              <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -152,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -184,6 +123,8 @@
       <find>@media</find>
       <find>[\n]</find>
       <find>#moon</find>
+      <find>6.5</find>
+      <find>inline-blokc</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -200,22 +141,24 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.css" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.css" />
-        <option value="$PROJECT_DIR$/css/course.css" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
         <option value="$PROJECT_DIR$/bib.html" />
-        <option value="$PROJECT_DIR$/css/aspect.css" />
         <option value="$PROJECT_DIR$/submission.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/fundraising.html" />
         <option value="$PROJECT_DIR$/leadership.html" />
-        <option value="$PROJECT_DIR$/css/tsa.css" />
-        <option value="$PROJECT_DIR$/courses.html" />
-        <option value="$PROJECT_DIR$/js/templates/cim.txt" />
-        <option value="$PROJECT_DIR$/js/templates/poe.txt" />
         <option value="$PROJECT_DIR$/js/templates/phys.txt" />
-        <option value="$PROJECT_DIR$/js/templates/chem.txt" />
-        <option value="$PROJECT_DIR$/js/template.ms" />
+        <option value="$PROJECT_DIR$/js/templates/cim.txt" />
+        <option value="$PROJECT_DIR$/js/mustache.min.js" />
         <option value="$PROJECT_DIR$/js/templates.js" />
+        <option value="$PROJECT_DIR$/js/template.ms" />
+        <option value="$PROJECT_DIR$/js/templates/poe.txt" />
+        <option value="$PROJECT_DIR$/css/aspect.css" />
+        <option value="$PROJECT_DIR$/js/templates/chem.txt" />
+        <option value="$PROJECT_DIR$/css/tsa.css" />
+        <option value="$PROJECT_DIR$/css/course.css" />
+        <option value="$PROJECT_DIR$/courses.html" />
+        <option value="$PROJECT_DIR$/css/template.css" />
       </list>
     </option>
   </component>
@@ -280,12 +223,13 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/mustache.min.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,12 +266,12 @@
       <workItem from="1524397696576" duration="1742000" />
       <workItem from="1524575901746" duration="229000" />
       <workItem from="1524707775092" duration="4743000" />
-      <workItem from="1524772631528" duration="11812000" />
+      <workItem from="1524772631528" duration="19894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58586000" />
+    <option name="totallyTimeSpent" value="66668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="2880" height="1636" extended-state="6" />
@@ -372,31 +316,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leadership.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/tsa.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35836">
@@ -457,10 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,10 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,10 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,10 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,10 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,10 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,24 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/course.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/aspect.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -697,73 +578,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tsa.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14453">
-          <caret line="758" column="1" selection-start-line="758" selection-start-column="1" selection-end-line="758" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#span#1;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/poe.txt">
+    <entry file="file://$PROJECT_DIR$/js/mustache.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <caret line="278" column="6" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/cim.txt">
+    <entry file="file://$PROJECT_DIR$/css/materialize.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/phys.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates/chem.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state relative-caret-position="428">
+          <caret line="5" column="40130" selection-start-line="5" selection-start-column="40130" selection-end-line="5" selection-end-column="40134" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fundraising.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/template.ms">
+    <entry file="file://$PROJECT_DIR$/js/templates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="282">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/templates.js">
+    <entry file="file://$PROJECT_DIR$/js/templates/cim.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/phys.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/chem.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/template.ms">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tsa.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="1123" column="17" selection-start-line="1123" selection-start-column="17" selection-end-line="1123" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/templates/poe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/course.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aspect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>

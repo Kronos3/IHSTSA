@@ -1,0 +1,45 @@
+#template-wrapper {
+	display: inline;
+	background: #f0eff3;
+	transition: height ease-in-out 1s;
+	position: fixed;
+	bottom: 0;
+	z-index: 99;
+	height: calc(100vh - 5.6vw);
+	overflow: auto;
+}
+
+body.open {
+	overflow: hidden;
+}
+
+#template-inner {
+	display: none;
+}
+
+body.open #template-wrapper {
+	width: 100vw;
+}
+
+#template-wrapper p {
+	text-indent: 2.5em;
+}
+
+#template-wrapper p.quote {
+	text-indent: 0;
+	padding: 0 1.5em;
+}
+
+#template-wrapper p.quote > span::before {
+	content: " ";
+	display: block;
+}
+
+#template-wrapper li {
+	color: #606063;
+}
+
+body.open #template-wrapper > #template-inner {
+	display: block;
+}
+

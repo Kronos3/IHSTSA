@@ -1,4 +1,5 @@
---AP Physics C
+physc.png
+~AP Physics C
 -At Ithaca High School, the capstone course for high-achieving students in STEM is AP Physics C. This course, taught by Ms. Deborah Lynn, forms the beginning of a college-long sequence that serves as a basis for a career in physical science or engineering. As a result of the many prerequisite courses needed to take Physics C, nearly all students are seniors in high school, with the exception of a few precocious juniors. In order to take the course at Ithaca High School, students must be in a concurrent AP Calculus course. Since this physics course is the most rigorous level offered by the College Board, methods of calculus are used to analyze physical principles and answer physical problems. Surprisingly, Physics C is set apart from Physics 1 and 2 (also offered by the College Board for AP credit) because Physics C covers fewer topics, but emphasizes these concepts in greater depth and with greater mathematical sophistication. Above all, AP Physics C offers a rigorous curriculum that emphasized challenging, calculus-laden problems.
 -When analyzing the curriculum of AP Physics C, one can break the subject matter into two main categories: mechanics, and the broader category of electricity and magnetism. Each category attempts to address a few main, broad goals:
 <ol>

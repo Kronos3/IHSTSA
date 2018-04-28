@@ -18,7 +18,7 @@
 
 .course-entry:before,
 .course-entry:after,
-.course-entry > span {
+.course-entry > a > span {
 	content: '';
 	height: 5px;
 	width: 0px;
@@ -28,7 +28,7 @@
 	background: #fff;
 }
 
-.course-entry > span.left {
+.course-entry > a > span.left {
 	left: 0;
 	width: 5px;
 	height: 0px;
@@ -37,7 +37,7 @@
 	transition-delay: 150ms;
 }
 
-.course-entry > span.right > svg > text {
+.course-entry > a > span.right > svg > text {
 	font-weight: bold;
 	font-size: 18px;
 	fill: rgba(34, 35, 38, 0);
@@ -47,13 +47,13 @@
 	transition: all ease-out 150ms;
 }
 
-.course-entry > span.right > svg {
+.course-entry > a > span.right > svg {
 	top: 50%;
 	transform: translateY(-50%);
 	position: absolute;
 }
 
-.course-entry > span.right {
+.course-entry > a > span.right {
 	width: 0px;
 	height: 100%;
 	top: 50%;
@@ -72,43 +72,44 @@
 	width: 100%;
 }
 
-.course-entry:hover > span.left {
+.course-entry:hover > a > span.left {
 	height: 100%;
 	transition-delay: 0ms;
 }
 
-.course-entry:hover > span.right {
+.course-entry:hover > a > span.right {
 	width: 12%;
 }
 
-.course-entry:hover > span.right > svg > text {
+.course-entry:hover > a > span.right > svg > text {
 	fill: rgba(34, 35, 38, 1);
+}
+
+.course-entry p {
+	font-size: 1.2em;
 }
 
 .course-entry h1 {
 	font-size: 2.95vw;
 	font-weight: bold;
 	position: relative;
-	display: inline-block;
+	display: block;
 	margin-bottom: 15px;
 }
 
 .course-entry {
 	position: relative;
-	display: inline-block;
+	display: inline-grid;
+	margin: 0 auto;
 	background: #3f4043;
 	color: #fff;
 	text-align: center;
 	cursor:pointer;
 }
 
-.course-entry > div {
+.course-entry > a > div {
 	padding: 3.86vw 7.02vw 3.86vw 7.02vw;
 	position: relative;
-}
-
-.course-entry > div > p {
-	max-width: 350px;
 }
 
 @media (min-aspect-ratio: 14/9) {
@@ -120,14 +121,14 @@
 	.course-entry {
 		width: 100vw;
 	}
-	.course-entry > div > p {
+	.course-entry > a > div > p {
 		max-width: initial;
 	}
 	
 	.course-entry::before,
 	.course-entry::after,
-	.course-entry > .left,
-	.course-entry > .right {
+	.course-entry > a > .left,
+	.course-entry > a > .right {
 		transition: none !important;
 	}
 	
