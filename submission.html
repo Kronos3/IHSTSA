@@ -2,86 +2,152 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Ithaca High School TSA</title>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/tsa.css">
-    <link rel="stylesheet" type="text/css" href="css/aspect.css">
+	<meta charset="utf-8"/>
+	<title>Ithaca High School TSA</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/tsa.css">
+	<link rel="stylesheet" type="text/css" href="css/aspect.css">
+	
+	<style>
+		#forest img {
+			position: absolute;
+		}
+		
+		#mountain {
+			width: 100vw;
+			height: auto;
+			bottom: 0;
+			
+		}
+		
+		#tree1 {
+			left: 0;
+			bottom: 0;
+			height: 40%;
+			width: auto;
+		}
+		
+		#tree2 {
+			left: 0;
+			transform: translateX(75%) scaleX(-1);
+			bottom: 0;
+			height: 50%;
+			width: auto;
+		}
+		
+		#tree3 {
+			right: 0;
+			bottom: 0;
+			height: 40%;
+			width: auto;
+		}
+	</style>
+	
 </head>
 <body>
 
 <div class="submission-lander">
-    <div id="forest"></div>
-    <div class="header">
-        <p>Technology Student Association<br>Ithaca High School</p>
-        <h3>Submissions</h3>
-    </div>
+	<div id="forest">
+		<img id="mountain" src="img/assets/submissions/mountain.png">
+		<img id="tree1" src="img/assets/submissions/tree_1.png">
+		<img id="tree2" src="img/assets/submissions/tree_2.png">
+		<img id="tree3" src="img/assets/submissions/tree_2.png">
+	</div>
+	<div class="header">
+		<p>Technology Student Association<br>Ithaca High School</p>
+		<h3>Submissions</h3>
+	</div>
 </div>
 
 <div class="nav">
-    <div id="logo" class="render-svgs" data-svgs="tsa_logo_white"></div>
-    <div class="nav-inner">
-        <a href="index.html">Home</a>
-        <a href="leadership.html">Leadership</a>
-        <a class="active" href="#">Submissions</a>
-        <a href="courses.html">Courses</a>
-    </div>
+	<div id="logo" class="render-svgs" data-svgs="tsa_logo_white"></div>
+	<div class="nav-inner">
+		<a href="index.html">Home</a>
+		<a href="leadership.html">Leadership</a>
+		<a class="active" href="#">Submissions</a>
+		<a href="courses.html">Courses</a>
+	</div>
 </div>
 
 <div class="sub rocket">
-    <img src="img/rocket.png">
-    <h3>Video Game Design: <i>Mission to Jupiter</i></h3>
-    <p>IHSTSA is putting out one of it’s cooler video games this year. Mission to Jupiter is about space exploration, but its take on space is much better than the sci-fi norm: instead of shooting aliens with lasers, players must explore Jupiter’s moons in search of more information about the gas giant, its surroundings, and the origin of the solar system.</p>
-    <p>Also, Newton’s First Law (objects at rest stay at rest; objects in motion stay in motion) applies significantly in the game, making maneuvering a difficult—but legitimate—challenge. Combine this with very good pixelated artwork and a console window giving a rundown of what’s going on in the spacecraft, and, IHSTSA is impressed. We hope Mission to Jupiter shoots for the stars and hits them—or at least Jupiter.</p>
+	<img src="img/rocket.png">
+	<h3>Video Game Design: <i>Mission to Jupiter</i></h3>
+	<p>IHSTSA is putting out one of it’s cooler video games this year. Mission to Jupiter is about space exploration,
+		but its take on space is much better than the sci-fi norm: instead of shooting aliens with lasers, players must
+		explore Jupiter’s moons in search of more information about the gas giant, its surroundings, and the origin of
+		the solar system.</p>
+	<p>Also, Newton’s First Law (objects at rest stay at rest; objects in motion stay in motion) applies significantly
+		in the game, making maneuvering a difficult—but legitimate—challenge. Combine this with very good pixelated
+		artwork and a console window giving a rundown of what’s going on in the spacecraft, and, IHSTSA is impressed. We
+		hope Mission to Jupiter shoots for the stars and hits them—or at least Jupiter.</p>
 </div>
 
 <div class="sub scivis">
-    <h3>SCIVIS</h3>
-    <p>After having a 4th place finish in Science Animation last year at the National Conference, students were excited to continue our chapter’s success in the event. This year, our team is focusing on outer space and “exoplanets.” Essentially, exoplanets are planets beyond our solar system and are objectively important, since some exoplanets could have capabilities to harbor life as we know it. Throughout the animation, the team discusses the scientific interest in exoplanets, but also the ethical issues with greater space exploration. One significant motivation for choosing “exoplanets” as the team’s topic this year came from the student behind the animations, Joseph Yoon. Yoon was interested in animating scenes with outer space, and was excited to put his artistic ambitions to the test in animation.</p>
+	<h3>SCIVIS</h3>
+	<p>After having a 4th place finish in Science Animation last year at the National Conference, students were excited
+		to continue our chapter’s success in the event. This year, our team is focusing on outer space and “exoplanets.”
+		Essentially, exoplanets are planets beyond our solar system and are objectively important, since some exoplanets
+		could have capabilities to harbor life as we know it. Throughout the animation, the team discusses the
+		scientific interest in exoplanets, but also the ethical issues with greater space exploration. One significant
+		motivation for choosing “exoplanets” as the team’s topic this year came from the student behind the animations,
+		Joseph Yoon. Yoon was interested in animating scenes with outer space, and was excited to put his artistic
+		ambitions to the test in animation.</p>
 </div>
 
 <div class="sub cat">
-    <h3>Catapult</h3>
-    <p>IHSTSA took home the first place place trophy at our state conference for catapult with an innovative design involving a disk spun by a powerful electric motor. Made by chapter and New York State TSA president Jacob Silcoff, Paul Fisher-York, Kasia Fadeeva, and Aurora Kiefer, the catapult wowed everyone at states.</p>
-    <p>During the testing (and goofing off) process, the team managed to hit the backboard of basketball net at 30 feet, and spin the motor so fast that the rubber band stretched over the disk flew off. What’s more, this impressive performance comes with a catapult measuring far less than the maximum dimensions allowed in the event, and the craftsmanship in it is exemplary.</p>
+	<h3>Catapult</h3>
+	<p>IHSTSA took home the first place place trophy at our state conference for catapult with an innovative design
+		involving a disk spun by a powerful electric motor. Made by chapter and New York State TSA president Jacob
+		Silcoff, Paul Fisher-York, Kasia Fadeeva, and Aurora Kiefer, the catapult wowed everyone at states.</p>
+	<p>During the testing (and goofing off) process, the team managed to hit the backboard of basketball net at 30 feet,
+		and spin the motor so fast that the rubber band stretched over the disk flew off. What’s more, this impressive
+		performance comes with a catapult measuring far less than the maximum dimensions allowed in the event, and the
+		craftsmanship in it is exemplary.</p>
 </div>
 
 <div class="sub ch">
-    <h3>Children’s Stories: <i>The Tallest Building in the World</i></h3>
-    <p>IHSTSA has for years been working up to winning the Children’s Stories event at the national competition, winning first place each year at states and once making it to the semifinals at nationals. More importantly, each year’s submission has been among the chapter’s best.</p>
-    <p>This year, the story is a loose take on the building of New York City’s Chrysler building, in which its architect’s daughter Virginia helps him through a score of difficulties. Though the team has been mostly the same for the past few years, this year is a shake-up year because the chief illustrator is now a different person, and because the book needs to be fundamentally changed: once flat pages now need to pop up.</p>
-    <p>According to chapter and New York Francesca Chu, “Our main challenge was figuring out how to make digital art that would lend itself well to being cut out and folded.” Still, The Tallest Building in the World is quite impressive.</p>
+	<h3>Children’s Stories: <i>The Tallest Building in the World</i></h3>
+	<p>IHSTSA has for years been working up to winning the Children’s Stories event at the national competition, winning
+		first place each year at states and once making it to the semifinals at nationals. More importantly, each year’s
+		submission has been among the chapter’s best.</p>
+	<p>This year, the story is a loose take on the building of New York City’s Chrysler building, in which its
+		architect’s daughter Virginia helps him through a score of difficulties. Though the team has been mostly the
+		same for the past few years, this year is a shake-up year because the chief illustrator is now a different
+		person, and because the book needs to be fundamentally changed: once flat pages now need to pop up.</p>
+	<p>According to chapter and New York Francesca Chu, “Our main challenge was figuring out how to make digital art
+		that would lend itself well to being cut out and folded.” Still, The Tallest Building in the World is quite
+		impressive.</p>
 </div>
 
 <div class="footer">
-   <div class="footer-inner-wrapper">
-        <div class="footer-inner-left">
-            <div>
-                <h3>Content</h3>
-                <a href="leadership.html#Officers">Officers</a>
-                <a href="leadership.html">Advisors</a>
-                <a href="submission.html">Submission</a>
-                <a href="courses.html">STEM Education</a>
-                <a href="fundraising.html">Fundraising</a>
-                <a href="bib.html">Works Cited</a>
-            </div>
-            <div>
-                <h3>External</h3>
-                <a href="https://hyperion.ihstsa.cf">Artificial Intelligence</a>
-            </div>
-            <div class="copy-right-info">
-                <p class="footer-motto">Learning to lead in a technical world.</p>
-                <p class="copyright">© Copyright 2018 IHSTSA</p>
-            </div>
-        </div>
-        <div class="footer-inner-right">
-            <div class="render-svgs" data-svgs="tsa_logo_white"></div>
-            <a class="read-more">ihstsa@gmail.com</a>
-            <p class="address">1401 N Cayuga St</p>
-            <p>Ithaca, NY 14850</p>
-        </div>
-   </div>
+	<div class="footer-inner-wrapper">
+		<div class="footer-inner-left">
+			<div>
+				<h3>Content</h3>
+				<a href="leadership.html#Officers">Officers</a>
+				<a href="leadership.html">Advisors</a>
+				<a href="submission.html">Submission</a>
+				<a href="courses.html">STEM Education</a>
+				<a href="fundraising.html">Fundraising</a>
+				<a href="bib.html">Works Cited</a>
+			</div>
+			<div>
+				<h3>External</h3>
+				<a href="https://hyperion.ihstsa.cf">Artificial Intelligence</a>
+			</div>
+			<div class="copy-right-info">
+				<p class="footer-motto">Learning to lead in a technical world.</p>
+				<p class="copyright">© Copyright 2018 IHSTSA</p>
+			</div>
+		</div>
+		<div class="footer-inner-right">
+			<div class="render-svgs" data-svgs="tsa_logo_white"></div>
+			<a class="read-more">ihstsa@gmail.com</a>
+			<p class="address">1401 N Cayuga St</p>
+			<p>Ithaca, NY 14850</p>
+		</div>
+	</div>
 </div>
 </body>
 

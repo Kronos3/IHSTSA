@@ -58,10 +58,13 @@ a:focus {
 	width: 100%;
 	height: 4em;
 	transition: all ease 0.3s;
-	/*background: rgba(34, 35, 38, 0.8);*/
 	z-index: 10;
 	align-items: center;
 	justify-content: center;
+}
+
+.nav.dark {
+	background: rgb(56, 52, 55);
 }
 
 .nav .nav-inner a {
@@ -561,6 +564,7 @@ section.--toc-section:last-child .arrow {
 .watch-video .prompt {
 	margin-top: 20px;
 	font-size: 52px;
+	max-width: 800px;
 	color: #fff;
 	font-weight: bold;
 	line-height: 120%;
@@ -754,34 +758,6 @@ section.--toc-section:last-child .arrow {
 	width: 100%;
 }
 
-#grassland {
-	width: 100vw;
-	position: absolute;
-	bottom: 0;
-	height: 90vh;
-	background: url(../img/assets/grassland/fore.svg) bottom center, url(../img/assets/grassland/tree.svg) bottom 300px center, url(../img/assets/grassland/middle.svg) bottom 80px center, url(../img/assets/grassland/back.svg) bottom 300px center;
-	background-position: center bottom 0px, bottom 140px right 30px, bottom 0px center, bottom 160px center;
-	background-size: cover, 200px 350px, cover, cover;
-	background-repeat: no-repeat;
-}
-
-#grassland #svg {
-	position: absolute;
-	left: 60px;
-	top: 270px;
-	animation-duration: 1s;
-	animation-name: bob;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	display: block;
-	width: 180px;
-	height: auto;
-	background-size: cover;
-	background-position: center center;
-	object-fit: cover;
-	z-index: -1;
-}
-
 @keyframes bob {
 	0% {
 		transform: translateY(0px);
@@ -873,6 +849,8 @@ section.--toc-section:last-child .arrow {
 	position: absolute;
 	left: 25%;
 	top: 50%;
+	width: auto;
+	height: 50%;
 	transform: translate(-50%, -50%);
 	transition: all 1s ease;
 }
@@ -958,13 +936,14 @@ section.--toc-section:last-child .arrow {
 }
 
 .officer img {
-	height: calc(100% - 120px);
+	height: auto;
+	width: 40%;
 	position: absolute;
-	top: 60px;
+	top: 50%;
 	border-radius: 50%;
 	object-fit: cover;
 	right: 25%;
-	transform: translateX(50%);
+	transform: translate(50%, -50%);
 }
 
 .container {
@@ -994,33 +973,6 @@ section.--toc-section:last-child .arrow {
 	z-index: 2;
 }
 
-#mountains {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	height: 100%;
-	background: url(../img/assets/mountains/mountains-2.svg) bottom center, url(../img/assets/mountains/sun-balloon.svg) bottom 300px center;
-	background-position: left 50px bottom 0px, bottom 140px right -4px;
-	background-size: 40% auto, 200px 350px;
-	background-repeat: no-repeat;
-}
-
-#mountains #svg {
-	position: absolute;
-	left: 60px;
-	top: 270px;
-	animation-duration: 1s;
-	animation-name: bob;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	display: block;
-	width: 180px;
-	height: auto;
-	background-size: cover;
-	background-position: center center;
-	object-fit: cover;
-}
-
 .submission-lander {
 	height: 80vh;
 	position: relative;
@@ -1041,11 +993,7 @@ section.--toc-section:last-child .arrow {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url("../img/assets/mountain.png");
-	background-color: #114e79;
-	background-repeat: no-repeat;
-	background-size: 100vw;
-	background-position: 0 calc(100% + 50px);
+	background: #114e79;
 }
 
 #forest #svg {
@@ -1113,12 +1061,6 @@ section.--toc-section:last-child .arrow {
 	transform: translate(-50%, -50%) rotateZ(-30deg);
 }
 
-.scivis {
-	background: url('../img/1-kepler186f.jpg');
-	background-position: center center;
-	background-size: cover;
-}
-
 .scivis::before {
 	content: '';
 	background: rgba(0, 0, 0, 0.6);
@@ -1128,12 +1070,6 @@ section.--toc-section:last-child .arrow {
 	left: 0;
 	display: block;
 	height: 100%;
-}
-
-.ch {
-	background: url('../img/children_stories.png');
-	background-position: center center;
-	background-size: cover;
 }
 
 .ch::before {
@@ -1185,6 +1121,15 @@ section.--toc-section:last-child .arrow {
 	color: #222326;
 	font-size: 42px;
 	text-align: center;
+}
+
+.fundraising-lander img {
+	height: 80%;
+	position: absolute;
+	width: auto;
+	right: 0;
+	top: 50%;
+	transform: translate(-25%, -50%);
 }
 
 .inner-wrapper-fund {

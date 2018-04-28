@@ -10,13 +10,13 @@
 		font-size: 3vh;
 	}
 	
-	.courses-lander {
+	.courses-lander,
+	.leadership-lander {
 		height: 35vh;
 	}
 	
 	.header {
-		margin-top: 10vh;
-		top: 30%;
+		top: 50%;
 	}
 	
 	.lander-inner .header {
@@ -61,12 +61,12 @@
 	.lander,
 	.lander-back,
 	.lander-inner {
-		height: 60vh;
+		height: 55vh;
 	}
 	
 	#planetsvg {
-		width: 50vh;
-		height: 50vh;
+		width: 40vh;
+		height: auto;
 	}
 	
 	#moonsvg {
@@ -75,8 +75,8 @@
 	}
 	
 	#sunsvg {
-		width: 30vh;
-		height: 30vh;
+		width: 20vh;
+		height: auto;
 	}
 	
 	.lander-inner,
@@ -126,7 +126,7 @@
 	
 	.officer {
 		max-width: 100%;
-	}
+	}2
 }
 
 @media screen and (max-width: 680px) {
