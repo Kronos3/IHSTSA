@@ -1013,74 +1013,29 @@ section.--toc-section:last-child .arrow {
 }
 
 .sub {
-	display: block;
-	background: #222326;
-	padding: 80px;
-	color: #fff;
-	position: relative;
-	min-height: 40vh;
+	margin-bottom: 120px;
 }
 
-.sub h3 {
-	font-size: 42px;
-	top: 50%;
-	transform: translateY(-50%);
-	position: absolute;
-	max-width: 25vw;
-	z-index: 2;
-}
-
-.sub p {
-	width: 40%;
-	min-width: 450px;
-	font-size: 1.5rem;
-	display: block;
-	left: 50%;
-	z-index: 2;
+.sub,
+.sub-header {
 	position: relative;
 }
 
-@keyframes rotate {
-	0% {
-		transform: translate(-50%, -50%) rotateZ(-30deg);
-	}
-	50% {
-		transform: translate(-50%, -50%) rotateZ(-130deg);
-	}
-	100% {
-		transform: translate(-50%, -50%) rotateZ(-30deg);
-	}
+.sub-header {
+	overflow: hidden;
+	padding: 25vmin 30px;
 }
 
-.sub.rocket img {
-	position: absolute;
-	width: 200px;
-	top: 40%;
-	left: 40%;
-	animation: rotate 6s infinite;
-	transform: translate(-50%, -50%) rotateZ(-30deg);
-}
-
-.scivis::before {
-	content: '';
-	background: rgba(0, 0, 0, 0.6);
+.sub-header img {
 	position: absolute;
 	width: 100%;
+	height: auto;
 	top: 0;
 	left: 0;
-	display: block;
-	height: 100%;
 }
 
-.ch::before {
-	content: '';
-	background: rgba(0, 0, 0, 0.6);
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0;
-	display: block;
-	height: 100%;
+.sub-inner {
+	padding: 0 10%;
 }
 
 .fundraising-container {
@@ -1120,8 +1075,8 @@ section.--toc-section:last-child .arrow {
 .fundraising-container h3 {
 	color: #222326;
 	font-size: 42px;
-	text-align: center;
 	max-width: 50%;
+	margin: .5em 0;
 }
 
 .fundraising-lander img {
