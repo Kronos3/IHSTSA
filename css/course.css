@@ -1,7 +1,8 @@
 .course-list {
 	padding: 0;
 	margin: 0;
-	display: block;
+	display: table;
+	background: #3f4043;
 }
 
 .course-entry:before {

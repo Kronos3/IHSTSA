@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c9f4429-394a-4916-8892-7894690fa40b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundraising.html" beforeDir="false" afterPath="$PROJECT_DIR$/fundraising.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/course.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/course.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,16 +64,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="course.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/course.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+            <state relative-caret-position="136">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="courses.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="courses.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -165,11 +164,11 @@
         <option value="$PROJECT_DIR$/css/aspect.css" />
         <option value="$PROJECT_DIR$/js/templates/chem.txt" />
         <option value="$PROJECT_DIR$/css/tsa.css" />
-        <option value="$PROJECT_DIR$/css/course.css" />
         <option value="$PROJECT_DIR$/css/template.css" />
         <option value="$PROJECT_DIR$/leadership.html" />
         <option value="$PROJECT_DIR$/fundraising.html" />
         <option value="$PROJECT_DIR$/courses.html" />
+        <option value="$PROJECT_DIR$/css/course.css" />
       </list>
     </option>
   </component>
@@ -277,12 +276,12 @@
       <workItem from="1524397696576" duration="1742000" />
       <workItem from="1524575901746" duration="229000" />
       <workItem from="1524707775092" duration="4743000" />
-      <workItem from="1524772631528" duration="21305000" />
+      <workItem from="1524772631528" duration="21435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68079000" />
+    <option name="totallyTimeSpent" value="68209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="2880" height="1636" extended-state="6" />
@@ -649,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/course.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/template.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -687,6 +679,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/course.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
