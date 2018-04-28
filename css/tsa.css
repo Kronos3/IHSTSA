@@ -196,7 +196,8 @@ a:focus {
 
 #moonsvg,
 #planetsvg,
-#sunsvg {
+#sunsvg,
+#rocketsvg {
 	position: absolute;
 	z-index: 4;
 }
@@ -223,6 +224,13 @@ a:focus {
 	width: 200px;
 	height: 200px;
 	top: 60px;
+}
+
+#rocketsvg {
+	left: 5%;
+	width: 10vmax;
+	height: auto;
+	top: 20%;
 }
 
 .nav.down {
