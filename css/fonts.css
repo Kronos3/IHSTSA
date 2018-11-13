@@ -1,0 +1,74 @@
+/**************************** FONTS ****************************/
+
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-Light.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Light.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Light.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Light.woff) format("woff");
+    font-weight:200;
+    font-style:normal;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-LightItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-LightItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-LightItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-LightItalic.woff) format("woff");
+    font-weight:200;
+    font-style:italic;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-Book.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Book.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Book.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Book.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-BookItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-BookItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-BookItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-BookItalic.woff) format("woff");
+    font-weight:300;
+    font-style:italic;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-Regular.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Regular.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Regular.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-RegularItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-RegularItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-RegularItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-RegularItalic.woff) format("woff");
+    font-weight:400;
+    font-style:italic;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-SemiBold.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-SemiBold.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-SemiBold.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-SemiBold.woff) format("woff");
+    font-weight:600;
+    font-style:normal;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.woff) format("woff");
+    font-weight:600;
+    font-style:italic;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-Bold.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Bold.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Bold.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Bold.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-BoldItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-BoldItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-BoldItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-BoldItalic.woff) format("woff");
+    font-weight:700;
+    font-style:italic;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-Black.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Black.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Black.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Black.woff) format("woff");
+    font-weight:900;
+    font-style:normal;
+}
+@font-face{
+    font-family:MessinaSans;
+    src:url(../fonts/messina/MessinaSansWeb-BlackItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-BlackItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-BlackItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-BlackItalic.woff) format("woff");
+    font-weight:900;
+    font-style:italic;
+}

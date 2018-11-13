@@ -1,93 +1,109 @@
-/**************************** FONTS ****************************/
-
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-Light.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Light.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Light.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Light.woff) format("woff");
-    font-weight:200;
-    font-style:normal;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-LightItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-LightItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-LightItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-LightItalic.woff) format("woff");
-    font-weight:200;
-    font-style:italic;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-Book.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Book.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Book.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Book.woff) format("woff");
-    font-weight:300;
-    font-style:normal;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-BookItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-BookItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-BookItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-BookItalic.woff) format("woff");
-    font-weight:300;
-    font-style:italic;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-Regular.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Regular.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Regular.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Regular.woff) format("woff");
-    font-weight:400;
-    font-style:normal;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-RegularItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-RegularItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-RegularItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-RegularItalic.woff) format("woff");
-    font-weight:400;
-    font-style:italic;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-SemiBold.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-SemiBold.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-SemiBold.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-SemiBold.woff) format("woff");
-    font-weight:600;
-    font-style:normal;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-SemiBoldItalic.woff) format("woff");
-    font-weight:600;
-    font-style:italic;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-Bold.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Bold.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Bold.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Bold.woff) format("woff");
-    font-weight:700;
-    font-style:normal;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-BoldItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-BoldItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-BoldItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-BoldItalic.woff) format("woff");
-    font-weight:700;
-    font-style:italic;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-Black.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-Black.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-Black.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-Black.woff) format("woff");
-    font-weight:900;
-    font-style:normal;
-}
-@font-face{
-    font-family:MessinaSans;
-    src:url(../fonts/messina/MessinaSansWeb-BlackItalic.eot?) format("embedded-opentype"),url(../fonts/messina/MessinaSansWeb-BlackItalic.woff2) format("woff2"),url(../fonts/messina/MessinaSansWeb-BlackItalic.svg) format("svg"),url(../fonts/messina/MessinaSansWeb-BlackItalic.woff) format("woff");
-    font-weight:900;
-    font-style:italic;
-}
-
 /**************************** CSS ****************************/
 
 @media (min-height: 500px) and (min-width: 600px) {
 	.site-nav {
-		height: 78px;
 	}
-}
-
-.site-nav {
-	display: block;
-
 }
 
 @media (min-width: 1100px) {
     body {
         font-size:18px;
     }
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    height: 78px;
+    list-style: none;
+}
+
+.site-nav {
+	display: block;
+    padding: 0 140px 0 125px;
+    position: relative;
+    border-bottom: 1.5px #ccc solid;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: MessinaSans,sans-serif;
+}
+
+.render-svgs {
+    position: relative;
+}
+.render-svgs > svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.site-nav .render-svgs {
+    height: 80%;
+    position: absolute;
+    width: 120px;
+    left: 25px;
+    top: 10%;
+}
+.site-nav .render-svgs:hover path {
+    fill: rgb(0,102,168);
+}
+
+.site-nav > ul {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.site-nav > ul > li {
+    display: inline-block;
+    position: relative;
+    padding: 0 0.5em;
+}
+.site-nav > ul > li > a {
+    line-height: 78px;
+    height: 78px;
+    position: relative;
+    display: inline-block;
+}
+
+.site-nav > ul > li > a:before {
+    content: '';
+    position: absolute;
+    top: calc(50% + 0.5em + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 0;
+    transition: ease-out 250ms width;
+    background: rgb(0,102,168);
+}
+.site-nav > ul > li > a:hover:before {
+    width: 100%;
+}
+
+
+/*** LANDER ****/
+.lander-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.lander-left {
+    position: fixed;
+    top: 78px;
+    width: 40%;
+    height: calc(100% - 78px);
+    border-right: 1px solid #ccc;
 }
